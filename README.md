@@ -1,4 +1,4 @@
-#Personal Portfolio Website
+### Personal Portfolio Website
 
 #### This is a website created to display the projects I have created through collaboration and personally.
 
@@ -14,15 +14,15 @@ This displays the work done at Moringa School by Carol Wanjohi.[Personal Portfol
 * Copy [Personal Portfolio](https://carolwanjohi.github.io/)
 * Paste the link at your prefered browerser
 
-{This requires internet connection}
+This requires internet connection
 
 ## Known Bugs
 
-{No known bugs}
+No known bugs
 
 ## Technologies Used
 
-{I used Bootstarp for styling.}
+I used Bootstarp for styling.
 
 ### License
 
