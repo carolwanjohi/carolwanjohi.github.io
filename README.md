@@ -10,7 +10,7 @@ This displays the work done at Moringa School by Carol Wanjohi.[Personal Portfol
 
 ## Setup/Installation Requirements
 * Click [Personal Portfolio](https://carolwanjohi.github.io/)
-   or
+  or <br/>
 * Copy [Personal Portfolio](https://carolwanjohi.github.io/) and  Paste the link at your prefered browerser
 
 This requires internet connection
