@@ -9,7 +9,7 @@
 This displays the work done at Moringa School by Carol Wanjohi.[Personal Portfolio](https://carolwanjohi.github.io/) is an online portfolio that also information about myself.
 
 ## Setup/Installation Requirements
-* Click [Personal Portfolio](https://carolwanjohi.github.io/)
+* Click [Personal Portfolio](https://carolwanjohi.github.io/) <br/>
   or <br/>
 * Copy [Personal Portfolio](https://carolwanjohi.github.io/) and  Paste the link at your prefered browerser
 
