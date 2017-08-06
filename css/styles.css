@@ -1,3 +1,64 @@
+/*Center align content in div class jumbotron*/
+
 .jumbotron {
   text-align: center;
+}
+
+
+/*Animate content in span class motto*/
+
+.motto {
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: motto-animation;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite;
+  /* Safari 4.0 - 8.0 */
+  animation-name: motto-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes motto-animation {
+  0% {
+    background-color: #F2D7D5;
+  }
+  25% {
+    background-color: #EBDEF0;
+  }
+  50% {
+    background-color: #D4E6F1;
+  }
+  75% {
+    background-color: #D1F2EB;
+  }
+  100% {
+    background-color: #D4EFDF;
+  }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+  0% {
+    background-color: #F2D7D5;
+  }
+  25% {
+    background-color: #EBDEF0;
+  }
+  50% {
+    background-color: #D4E6F1;
+  }
+  75% {
+    background-color: #D1F2EB;
+  }
+  100% {
+    background-color: #D4EFDF;
+  }
 }
