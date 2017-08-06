@@ -5,6 +5,30 @@
 }
 
 
+/*Change font of .jumbotron h1*/
+
+.jumbotron h1 {
+  font-family: Pattaya;
+  font-size: 90px;
+}
+
+
+/*Change font of .jumbotron p*/
+
+.jumbotron p {
+  font-family: Ruthie;
+  font-size: 60px;
+}
+
+
+/*Change font of .jumbotron a*/
+
+.jumbotron a {
+  font-family: Sofia;
+  font-size: 30px;
+}
+
+
 /*Animate content in .motto and .jumbotron p*/
 
 .motto, .jumbotron p {
