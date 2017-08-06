@@ -1,64 +1,91 @@
-/*Center align content in div class jumbotron*/
+/*Center align content in .jumbotron*/
 
 .jumbotron {
   text-align: center;
 }
 
 
-/*Animate content in span class motto*/
+/*Animate content in .motto and .jumbotron p*/
 
-.motto {
-  background-color: red;
+.motto, .jumbotron p {
+  color: #922B21;
   position: relative;
+  /* Chrome and Safari*/
   -webkit-animation-name: motto-animation;
-  /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s;
-  /* Safari 4.0 - 8.0 */
   -webkit-animation-iteration-count: infinite;
-  /* Safari 4.0 - 8.0 */
+  /*Firefox*/
+  -moz-animation-name: motto-animation;
+  -moz-animation-duration: 4s;
+  -moz-animation-iteration-count: infinite;
+  /*Opera*/
+  -o-animation-name: motto-animation;
+  -o-animation-duration: 4s;
+  -o-animation-iteration-count: infinite;
   animation-name: motto-animation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
 
-/* Safari 4.0 - 8.0 */
+/*Chrome and Safari*/
 
 @-webkit-keyframes motto-animation {
   0% {
-    background-color: #F2D7D5;
+    color: #922B21;
   }
   25% {
-    background-color: #EBDEF0;
+    color: #B03A2E;
   }
   50% {
-    background-color: #D4E6F1;
+    color: #76448A;
   }
   75% {
-    background-color: #D1F2EB;
+    color: #6C3483;
   }
   100% {
-    background-color: #D4EFDF;
+    color: #1F618D;
   }
 }
 
 
-/* Standard syntax */
+/*Fifefox*/
 
-@keyframes example {
+@-moz-keyframes motto-animation {
   0% {
-    background-color: #F2D7D5;
+    color: #922B21;
   }
   25% {
-    background-color: #EBDEF0;
+    color: #B03A2E;
   }
   50% {
-    background-color: #D4E6F1;
+    color: #76448A;
   }
   75% {
-    background-color: #D1F2EB;
+    color: #6C3483;
   }
   100% {
-    background-color: #D4EFDF;
+    color: #1F618D;
+  }
+}
+
+
+/*Opera*/
+
+@-o-keyframes motto-animation {
+  0% {
+    color: #922B21;
+  }
+  25% {
+    color: #B03A2E;
+  }
+  50% {
+    color: #76448A;
+  }
+  75% {
+    color: #6C3483;
+  }
+  100% {
+    color: #1F618D;
   }
 }
