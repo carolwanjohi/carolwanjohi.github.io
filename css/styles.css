@@ -28,6 +28,12 @@
   font-size: 30px;
 }
 
+/*Change font of .row a*/
+
+.row p, .row ul{
+  font-family: Alike;
+  font-size: 17px;
+}
 
 /*Animate content in .motto and .jumbotron p*/
 
