@@ -27,6 +27,4 @@ No known bugs
 
 ### License
 
-*GitHub MIT*
-
-Copyright (c) {2017} **{[Carol Wanjohi](https://github.com/carolwanjohi) and [Mary Ng'ang'a](https://github.com/marynganga)}**
+MIT (c) 2017 **[Carol Wanjohi](https://github.com/carolwanjohi) and [Mary Ng'ang'a](https://github.com/marynganga)**
