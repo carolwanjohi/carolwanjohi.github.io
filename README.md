@@ -21,7 +21,9 @@ No known bugs
 
 ## Technologies Used
 
-I used Bootstarp for styling.
+* HTML
+* CSS
+* Bootstarp
 
 ### License
 
