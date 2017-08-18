@@ -2,11 +2,11 @@
 
 #### This is a website created to display the projects I have created personally and through collaboration.
 
-#### By **Carol Wanjohi**
+#### By **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
 ## Description
 
-This displays the work done at [Moringa School](http://moringaschool.com/) by Carol Wanjohi. [Personal Portfolio](https://carolwanjohi.github.io/) is an online portfolio that also information about myself.
+This displays the work done at [Moringa School](http://moringaschool.com/) by [Carol Wanjohi](https://github.com/carolwanjohi). [Personal Portfolio](https://carolwanjohi.github.io/) is an online portfolio that also information about myself.
 
 ## Setup/Installation Requirements
 * Click [Personal Portfolio](https://carolwanjohi.github.io/) <br/>
