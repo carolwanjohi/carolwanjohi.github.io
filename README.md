@@ -6,7 +6,7 @@
 
 ## Description
 
-This displays the work done at [Moringa School](http://moringaschool.com/) by [Carol Wanjohi](https://github.com/carolwanjohi). [Personal Portfolio](https://carolwanjohi.github.io/) is an online portfolio that also information about myself.
+[Personal Portfolio](https://carolwanjohi.github.io/) is my online portfolio.
 
 ## Setup/Installation Requirements
 * Click [Personal Portfolio](https://carolwanjohi.github.io/) <br/>
@@ -27,4 +27,4 @@ No known bugs
 
 ### License
 
-MIT (c) 2017 **[Carol Wanjohi](https://github.com/carolwanjohi) and [Mary Ng'ang'a](https://github.com/marynganga)**
+MIT (c) 2017 **[Carol Wanjohi](https://github.com/carolwanjohi)**
