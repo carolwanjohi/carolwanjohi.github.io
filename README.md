@@ -6,7 +6,7 @@
 
 ## Description
 
-[Personal Portfolio](https://carolwanjohi.github.io/) is my online portfolio.
+[Personal Portfolio](https://carolwanjohi.github.io/) is my online portfolio. It displays some of the projects that I have created. Some of the projects are team projects.
 
 ## Setup/Installation Requirements
 * Click [Personal Portfolio](https://carolwanjohi.github.io/) <br/>
