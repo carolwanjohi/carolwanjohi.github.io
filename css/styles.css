@@ -1,11 +1,11 @@
-/*Center align content in .jumbotron in section1*/
+/*Style .jumbotron in section1*/
 
 .jumbotron {
     text-align: center;   
 }
 
 
-/*Change font of .jumbotron h1 in section1*/
+/*Style .jumbotron h1 in section1*/
 
 .jumbotron h1 {
     font-family: Pattaya;
@@ -13,21 +13,30 @@
 }
 
 
-/*Change font of .jumbotron p in section1*/
+/*Style .jumbotron p in section1*/
 
 .jumbotron p {
     font-family: Ruthie;
     font-size: 4em;
 }
 
-/*Change font of .row p and .row ul in section2*/
+/*Style h3 in section2*/
 
-.section2 p, .section2 ul{
+.section2 h3 {
+    font-family: Pattaya;
+    font-size: 2.5em;
+    text-align: justify;
+}
+
+/*Style of p and ul in section2 and p in section4 and section5*/
+
+.section2 p, .section2 ul {
     font-family: Alike;
     font-size: 1.5em;
 }
 
 /*Style .motto in section2*/
+
 .motto { 
     font-family: Ruthie;
     font-size: 2.15em;
@@ -35,7 +44,7 @@
 
 /*Animate content in .motto and .jumbotron p in section1 and section2*/
 
-.motto, .jumbotron p {
+.motto, .jumbotron p, .section3 h2 {
     color: #922B21;
     position: relative;
     /* Chrome and Safari*/
@@ -119,25 +128,47 @@
 }
 
 /*Style section3*/
+
 .section3 h2{
     font-family: Pattaya;
     font-size: 6em;
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*Style h3 in section4 and section5*/
+
+.section4 h3, .section5 h3 {
+    font-family: Pattaya;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/*Style p in section4 and section5*/
+
+.section4 p, .section5 p{
+    font-family: Alike;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 /*Style #projectPhotographyImage in section4*/
+
 #projectPhotographyImage{
     width: 98%;
     padding-left: 5%;
 }
 
 /*Style #projectCaterersImage in section4*/
+
 #projectCaterersImage{
     width: 95.5%;
     padding-left: 5%;
 }
 
 /*Style #projectPingPongImage in section5*/
+
 #projectPingPongImage{
     width: 81.5%;
     padding-left: 5%;
