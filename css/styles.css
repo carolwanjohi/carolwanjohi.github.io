@@ -28,6 +28,12 @@
     text-align: justify;
 }
 
+/*Stye image in section2*/
+.section2 img {  
+    border-radius: 2.5em 9.75em;
+    padding: 2em; 
+}
+
 /*Style of p and ul in section2 and p in section4 and section5*/
 
 .section2 p, .section2 ul {
