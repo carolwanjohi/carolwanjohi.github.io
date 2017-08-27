@@ -1,8 +1,8 @@
-### Personal Portfolio Website
+# Personal Portfolio Website
 
-#### This is a website created to display the projects I have created personally and through collaboration.
+## This is a website created to display the projects I have created personally and through collaboration.
 
-#### By **[Carol Wanjohi](https://github.com/carolwanjohi)**
+## By **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
 ## Description
 
