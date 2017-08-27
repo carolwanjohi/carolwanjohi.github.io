@@ -1,126 +1,150 @@
 /*Center align content in .jumbotron in section1*/
 
 .jumbotron {
-  text-align: center;
+    text-align: center;   
 }
 
 
 /*Change font of .jumbotron h1 in section1*/
 
 .jumbotron h1 {
-  font-family: Pattaya;
-  font-size: 6em;
+    font-family: Pattaya;
+    font-size: 6em;
 }
 
 
 /*Change font of .jumbotron p in section1*/
 
 .jumbotron p {
-  font-family: Ruthie;
-  font-size: 4em;
+    font-family: Ruthie;
+    font-size: 4em;
 }
 
 /*Change font of .row p and .row ul in section2*/
 
 .section2 p, .section2 ul{
-  font-family: Alike;
-  font-size: 1.5em;
+    font-family: Alike;
+    font-size: 1.5em;
 }
 
 /*Style .motto in section2*/
 .motto { 
-  font-family: Ruthie;
-  font-size: 2.15em;
+    font-family: Ruthie;
+    font-size: 2.15em;
 }
 
 /*Animate content in .motto and .jumbotron p in section1 and section2*/
 
 .motto, .jumbotron p {
-  color: #922B21;
-  position: relative;
-  /* Chrome and Safari*/
-  -webkit-animation-name: motto-animation;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite;
-  /*Firefox*/
-  -moz-animation-name: motto-animation;
-  -moz-animation-duration: 4s;
-  -moz-animation-iteration-count: infinite;
-  /*Opera*/
-  -o-animation-name: motto-animation;
-  -o-animation-duration: 4s;
-  -o-animation-iteration-count: infinite;
-  animation-name: motto-animation;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+    color: #922B21;
+    position: relative;
+    /* Chrome and Safari*/
+    -webkit-animation-name: motto-animation;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    /*Firefox*/
+    -moz-animation-name: motto-animation;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    /*Opera*/
+    -o-animation-name: motto-animation;
+    -o-animation-duration: 4s;
+    -o-animation-iteration-count: infinite;
+    animation-name: motto-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 
 /*Chrome and Safari*/
 
 @-webkit-keyframes motto-animation {
-  0% {
+    0% {
     color: #922B21;
-  }
-  25% {
+    }
+    25% {
     color: #B03A2E;
-  }
-  50% {
+    }
+    50% {
     color: #76448A;
-  }
-  75% {
+    }
+    75% {
     color: #6C3483;
-  }
-  100% {
+    }
+    100% {
     color: #1F618D;
-  }
+    }
 }
 
 
 /*Fifefox*/
 
 @-moz-keyframes motto-animation {
-  0% {
+    0% {
     color: #922B21;
-  }
-  25% {
+    }
+    25% {
     color: #B03A2E;
-  }
-  50% {
+    }
+    50% {
     color: #76448A;
-  }
-  75% {
+    }
+    75% {
     color: #6C3483;
-  }
-  100% {
+    }
+    100% {
     color: #1F618D;
-  }
+    }
 }
 
 
 /*Opera*/
 
 @-o-keyframes motto-animation {
-  0% {
+    0% {
     color: #922B21;
-  }
-  25% {
+    }
+    25% {
     color: #B03A2E;
-  }
-  50% {
+    }
+    50% {
     color: #76448A;
-  }
-  75% {
+    }
+    75% {
     color: #6C3483;
-  }
-  100% {
+    }
+    100% {
     color: #1F618D;
-  }
+    }
 }
 
 /*Style section3*/
 .section3 h2{
-  font-family: Pattaya;
-  font-size: 6em;
-  text-align: center;
+    font-family: Pattaya;
+    font-size: 6em;
+    text-align: center;
+}
+
+/*Style #projectPhotographyImage in section4*/
+#projectPhotographyImage{
+    width: 98%;
+    padding-left: 5%;
+}
+
+/*Style #projectCaterersImage in section4*/
+#projectCaterersImage{
+    width: 95.5%;
+    padding-left: 5%;
+}
+
+/*Style #projectPingPongImage in section5*/
+#projectPingPongImage{
+    width: 81.5%;
+    padding-left: 5%;
+}
+
+/*Style #projectPigDiceImage in section5*/
+#projectPigDiceImage{
+    width: 95%;
+    padding-left: 5%;
 }
