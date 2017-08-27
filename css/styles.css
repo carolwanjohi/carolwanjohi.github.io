@@ -1,7 +1,8 @@
 /*Style .jumbotron in section1*/
 
 .jumbotron {
-    text-align: center;   
+    text-align: center;
+    background-color: #FDFEFE;   
 }
 
 
@@ -141,6 +142,24 @@
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+/*Style .panel-primary in section4 and section5*/
+
+.panel-primary {
+    border-color: #AED6F1;
+}
+
+/*Style .panel-heading  in section4 and section5*/
+
+.panel-primary > .panel-heading {
+    background: #5DADE2;
+}
+
+/*Style .panel-footer  in section4 and section5*/
+
+.panel-primary > .panel-footer {
+    background: #FDFEFE;
 }
 
 /*Style h3 in section4 and section5*/
