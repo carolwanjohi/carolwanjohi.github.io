@@ -71,8 +71,6 @@
 
     ul.nav.navbar-nav > li > a:hover {
         color: #333;
-    }
-
 }
 
 @media only screen and (min-device-width: 1442px) { 
