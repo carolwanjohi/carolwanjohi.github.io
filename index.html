@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Pattaya' rel='stylesheet'>
@@ -13,149 +12,55 @@
     <link href='https://fonts.googleapis.com/css?family=Ruthie' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Alike' rel='stylesheet'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!-- Site Icon -->
+    <link rel="shortcut icon" type="image/png" href="images/carol-logo.JPG"/>
     <title>Personal Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <section class="section1 jumbotron">
-            <h1>Carol Wanjohi</h1>
 
-            <p>Welcome to my online Portfolio.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse" id="nav">
 
-        </section>
+        <div class="navbar-inner">
 
-        <section class="section2">
-            <div class="row">
-                <div class="col-md-8 ">
-                    <img src="images/carol-logo.JPG" alt="Carol's logo">
+            <div class="container">
+                
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/icon-2.png" alt="Carol's logo" id="navIcon">
+                    </a>
+                
                 </div>
 
-                <div class="col-md-4">
-                    <h3>About Me</h3>
-                    <p>I am an aspiring Software Developer currently studying at<a href="http://moringaschool.com/"> Moringa School</a>.
-                        <br/>My motto is <span class=motto>life is for threiving</span>.</p>
+                <div class="collapse navbar-collapse" id="myNavbar">
 
-                    <h3>Eduactional Background</h3>
-                    <ul>
-                        <li>Loreto Convent Msongari - 2013</li>
-                        <li>Brookhouse School - 2014</li>
-                        <li>University of Sheffield - 2016</li>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
 
-                    <h3>Hobbies</h3>
-                    <ul>
-                        <li>Playing the piano</li>
-                        <li>Reading a variety of literature</li>
-                        <li>Coding</li>
-                    </ul>
                 </div>
 
             </div>
 
-        </section>
+        </div>
 
-        <section class="section3">
-            <header class="projectsHeader">
-                <h2>Projects</h2>
-            </header>
+    </nav>
 
-        </section>
 
-        <section class="section4">
-            <!--Row One for Photography Website and Caterers Website-->
-            <div class="row projectRow">
+    <!--    Javascript Links-->
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-                <div class="col-md-6">
-                    <div class="panel panel-primary">
-
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Photography Website</h3>
-                        </div>
-
-                        <div class="panel-body">
-                            <p>This was created to practice Responsive Design and Media Queries.<br/> Language used is HTML and CSS.</p>
-                            <img src="images/photography-screenshot.png" alt="Photography" id="projectPhotographyImage">
-                        </div>
-
-                        <div class="panel-footer">
-                            <p>Click <a href="https://marynganga.github.io/practising-media-queries/photography">here</a> to view the project.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6">
-                    <div class="panel panel-primary">
-
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Caterers Website</h3>
-                        </div>
-
-                        <div class="panel-body">
-                            <p>This was created to practice using bootstrap.css and custom stylesheets.<br/> Language used is HTML and CSS.</p>
-                            <img src="images/caterers-screenshot.png" alt="Caterers" id="projectCaterersImage">
-                        </div>
-
-                        <div class="panel-footer">
-                            <p>Click <a href="https://carolwanjohi.github.io/practising-bootstrap/catering">here</a> to view the project.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="section5">
-
-            <!--Row Two for Ping Pong and Pig Dice-->
-            <div class="row projectRow">
-
-                <div class="col-md-6">
-                    <div class="panel panel-primary">
-
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Ping Pong</h3>
-                        </div>
-
-                        <div class="panel-body">
-                            <p>This is a web application that displays a list of numbers to the user.<br/> Language used is HTML, CSS, JQUERY and JAVASCRIPT.</p>
-                            <img src="images/ping-pong-screenshot.png" alt="Ping Pong" id="projectPingPongImage">
-                        </div>
-
-                        <div class="panel-footer">
-                            <p>Click <a href="https://carolwanjohi.github.io/ping-pong/">here</a> to view the project.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Pig Dice</h3>
-                        </div>
-
-                        <div class="panel-body">
-                            <p>This is a web application where 2 users can play Pig Dice against each other .<br/> Language used is HTML, CSS, JQUERY and JAVASCRIPT.</p>
-                            <img src="images/pig-dice-screenshot.png" alt="Pig Dice" id="projectPigDiceImage">
-                        </div>
-
-                        <div class="panel-footer">
-                            <p>Click <a href="https://carolwanjohi.github.io/pig-dice/">here</a> to view the project.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </div>
 </body>
 
 </html>

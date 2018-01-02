@@ -1,206 +1,70 @@
-/*Style .jumbotron in section1*/
-
-.jumbotron {
-    text-align: center;
-    background-color: #FDFEFE;   
-}
-
-
-/*Style .jumbotron h1 in section1*/
-
-.jumbotron h1 {
-    font-family: Pattaya;
-    font-size: 6em;
-}
-
-
-/*Style .jumbotron p in section1*/
-
-.jumbotron p {
-    font-family: Ruthie;
-    font-size: 4em;
-}
-
-/*Style h3 in section2*/
-
-.section2 h3 {
-    font-family: Pattaya;
-    font-size: 2.5em;
-    text-align: justify;
-}
-
-/*Stye image in section2*/
-.section2 img {  
-    border-radius: 2.5em 9.75em;
-    padding: 2em; 
-}
-
-/*Style of p and ul in section2 and p in section4 and section5*/
-
-.section2 p, .section2 ul {
-    font-family: Alike;
-    font-size: 1.5em;
-}
-
-/*Style .motto in section2*/
-
-.motto { 
-    font-family: Ruthie;
-    font-size: 2.15em;
-}
-
-/*Animate content in .motto and .jumbotron p in section1 and section2*/
-
-.motto, .jumbotron p, .section3 h2 {
-    color: #922B21;
-    position: relative;
-    /* Chrome and Safari*/
-    -webkit-animation-name: motto-animation;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    /*Firefox*/
-    -moz-animation-name: motto-animation;
-    -moz-animation-duration: 4s;
-    -moz-animation-iteration-count: infinite;
-    /*Opera*/
-    -o-animation-name: motto-animation;
-    -o-animation-duration: 4s;
-    -o-animation-iteration-count: infinite;
-    animation-name: motto-animation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-
-/*Chrome and Safari*/
-
-@-webkit-keyframes motto-animation {
-    0% {
-    color: #922B21;
+@media only screen and (min-device-width: 0px) and (max-device-width: 376px)  { 
+    /*Navbar*/
+    #nav {
+        background: #fff;
+        border-color: #fff;
     }
-    25% {
-    color: #B03A2E;
+
+    #navIcon {
+        border-radius: 100%;
+        height: 12vh;
+        margin-top: -22%;
     }
-    50% {
-    color: #76448A;
+
+    button.navbar-toggle {
+        margin-top: 6%;
     }
-    75% {
-    color: #6C3483;
+
+    .navbar-inverse .navbar-toggle {
+        background: #333;
     }
-    100% {
-    color: #1F618D;
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
     }
+    
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
 }
 
+@media only screen and (min-device-width: 377px) and (max-device-width: 426px)  { 
 
-/*Fifefox*/
+}
 
-@-moz-keyframes motto-animation {
-    0% {
-    color: #922B21;
+@media only screen and (min-device-width: 427px) and (max-device-width: 770px)  { 
+
+}
+
+@media only screen and (min-device-width: 771px) and (max-device-width: 1025px)  { 
+    
+}
+
+@media only screen and (min-device-width: 1026px) and (max-device-width: 1441px)  { 
+    /*Navbar*/
+    #nav {
+        background: #fff;
+        border-color: #fff;
     }
-    25% {
-    color: #B03A2E;
+
+    #navIcon{
+        border-radius: 100%;
+        height: 13vh;
     }
-    50% {
-    color: #76448A;
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
     }
-    75% {
-    color: #6C3483;
+    
+    .navbar .navbar-collapse {
+        text-align: center;
     }
-    100% {
-    color: #1F618D;
-    }
+
 }
 
+@media only screen and (min-device-width: 1442px) { 
 
-/*Opera*/
-
-@-o-keyframes motto-animation {
-    0% {
-    color: #922B21;
-    }
-    25% {
-    color: #B03A2E;
-    }
-    50% {
-    color: #76448A;
-    }
-    75% {
-    color: #6C3483;
-    }
-    100% {
-    color: #1F618D;
-    }
-}
-
-/*Style section3*/
-
-.section3 h2{
-    font-family: Pattaya;
-    font-size: 6em;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-/*Style .panel-primary in section4 and section5*/
-
-.panel-primary {
-    border-color: #AED6F1;
-}
-
-/*Style .panel-heading  in section4 and section5*/
-
-.panel-primary > .panel-heading {
-    background: #5DADE2;
-}
-
-/*Style .panel-footer  in section4 and section5*/
-
-.panel-primary > .panel-footer {
-    background: #FDFEFE;
-}
-
-/*Style h3 in section4 and section5*/
-
-.section4 h3, .section5 h3 {
-    font-family: Pattaya;
-    font-size: 2.5em;
-    text-align: center;
-}
-
-/*Style p in section4 and section5*/
-
-.section4 p, .section5 p{
-    font-family: Alike;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-/*Style #projectPhotographyImage in section4*/
-
-#projectPhotographyImage{
-    width: 98%;
-    padding-left: 5%;
-}
-
-/*Style #projectCaterersImage in section4*/
-
-#projectCaterersImage{
-    width: 95.5%;
-    padding-left: 5%;
-}
-
-/*Style #projectPingPongImage in section5*/
-
-#projectPingPongImage{
-    width: 81.5%;
-    padding-left: 5%;
-}
-
-/*Style #projectPigDiceImage in section5*/
-#projectPigDiceImage{
-    width: 95%;
-    padding-left: 5%;
 }
