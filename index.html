@@ -21,54 +21,51 @@
 
 <body>
     
-        
-        <!-- Navbar -->
-        <nav class="navbar navbar-inverse" id="nav">
-
-            <div class="navbar-inner">
-
-                <div class="container">
-                    
-                    <div class="navbar-header">
-                        
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>                        
-                        </button>
-
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="myNavbar">
-
-                        <ul class="nav navbar-nav">
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </nav>
-
-    
     <!-- Home Section -->
     <section id="home" class="homeSection">
 
-        <div class="container">
+        <div class="row">
+            
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 nameColumn">
 
-            <article class="homeArticle">
-                Carol Wanjohi is a back-end web developer who strives to build amazing web applications through carefully crafted code.
-            </article>
+                <h1 class="nameHeader">
+                    CAROL
+                </h1>
 
-        </div>
+                <br>
+
+                <ul class="list-unstyled sectionLinksList">
+
+                    <li class="sectionLink">
+                        <a href="#projects">projects</a> 
+                    </li>
+
+                    <li class="sectionLink">
+                      /  <a href="#skills">skills</a> /
+                    </li>
+
+                    <li class="sectionLink">
+                        <a href="#contact">contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 homeColumn">
+
+                <article class="homeArticle">
+                    Carol Wanjohi is a back-end web developer who strives to build amazing web applications through carefully crafted code.
+                </article>   
+
+                <img src="images/web-dev-icon.png" alt="Web Deeloper Icon" class="img-responsive web-dev-icon">               
+
+            </div>
+
+        </div>        
 
     </section>
-    
+
     <!-- Projects Section -->
     <section id="projects" class="projectsSection">
 
@@ -199,24 +196,72 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h5 class="skill well">Python</h5>
+                <h2 class="back-end-skills-header">
+                    Back-end
+                </h2>
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-description">
+                        Carol Wanjohi is passionate about back-end development and the technologies involved.
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons">
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="images/python.png" alt="Python Logo" class="img-responsive python-icon">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="images/django.png" alt="Django Logo" class="img-responsive django-icon">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            
+                            <img src="images/flask.png" alt="FLask Logo" class="img-responsive flask-icon">
+
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            
+                            <img src="images/postgres.png" alt="PostgreSQL Logo" class="img-responsive postgres-icon">
+                            
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h5 class="skill well">Django</h5>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h5 class="skill well">PostreSQL</h5>
-                </div>
+
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h5 class="skill well">HTML5</h5>
+
+                <h2 class="front-end-skills-header">
+                    Front-end
+                </h2>
+
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-description">
+                        She is also interested in the design of websites and the frameworks used in creating a woderful user experience.
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons">
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="images/css3.png" alt="CSS3 Logo" class="img-responsive css3-icon">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="images/html5.png" alt="HTML5 Logo" class="img-responsive html5-icon">
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="images/bootstrap.png" alt="Bootstrap Logo" class="img-responsive bootstrap-icon">
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h5 class="skill well">Flask</h5>
-                </div>
+
             </div>
         </div>
         
@@ -255,8 +300,6 @@
                         <i class="fa fa-github githubSocialIcon" aria-hidden="true"></i>
                     </a>
 
-                    <br>
-
                     <a href="https://www.linkedin.com/in/carol-wanjohi-4a804277/" target="_blank" class="socialLink">
                         <i class="fa fa-linkedin linkedinSocialIcon" aria-hidden="true"></i>
                     </a>
@@ -278,3 +321,38 @@
 </body>
 
 </html>
+
+    
+ <!--    
+    <nav class="navbar navbar-inverse" id="nav">
+
+        <div class="navbar-inner">
+
+            <div class="container">
+                
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+ -->

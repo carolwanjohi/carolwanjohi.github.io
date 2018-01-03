@@ -44,7 +44,7 @@
 
 @media only screen and (min-device-width: 1026px) and (max-device-width: 1441px)  { 
     /*Navbar*/
-    #nav {
+/*    #nav {
         background: transparent;
         border-color: transparent;
         margin-bottom: 0%;
@@ -67,50 +67,69 @@
     }
 
     ul.nav.navbar-nav > li > a {
-        color: #fff;
+        color: #000;
         font-size: 1.25em;
     }
 
     ul.nav.navbar-nav > li > a:hover {
-        color: #fff;
+        color: #000;
     }
-
+*/
     /*Home section*/
     .homeSection {
         width: 100%;
         height: 100vh;
-        font-size: 2em;
-        text-align: center;
-        margin-top: 0.5%;
+        /*font-size: 2em;*/
+        /*text-align: center;*/
+        /*margin-top: 0.5%;*/
     }
 
-    .homeSection:after {
-        background: url('../images/carol-logo.JPG')  no-repeat center center;
-        width: 100%; 
+    .nameColumn {
+        text-align: center;
         height: 100vh;
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        content:'';
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        /*opacity: 0.6;*/
+    }
+
+    .nameColumn h1 {
+        padding-top: 25%;
+        color: #000;
+        font-size: 8em;
+    }
+
+    .sectionLinksList li {
+        display: inline;
+        font-size: 4em;
+    }
+
+    .sectionLinksList li > a{
+        color: #000;
+    }
+
+    .sectionLinksList li > a:hover{
+        color: #000;
+        text-decoration: none;
+    }
+
+    .homeColumn {
+        background: #000;
+        height: 100vh;
+        text-align: center;
     }
 
     .homeArticle {
-        margin-top: 35%; 
+        padding-top: 25%;
         color: #fff;
+        font-size: 1.75em;
+    }
+
+    .web-dev-icon {
+        margin: auto;
     }
 
     /*Projects section*/
     .projectsSection {
-        position: relative;
         width: 100%;
         height: 100vh;
         text-align: center;
-        /*margin-top: -13.5%;*/
     }
 
     .projectSectionHeader {
@@ -149,25 +168,51 @@
 
     /*Skills Section*/
     .skillsSection {
-        position: relative;
         width: 100%;
         height: 100vh;
-        text-align: center;
-        /*margin-top: -13.5%; */
         background-color: #000; 
     }
 
     .skillsHeader {
         font-size: 4.5em;
         color: #fff;
-        padding-top: 1.5%; 
-        padding-bottom: 3%; 
+/*        padding-top: 1.5%; 
+        padding-bottom: 3%;*/ 
+        text-align: center;
     }
 
-    .skill {
-        font-size: 1.75em;
-        color: #725AC1; 
-        border-color: #fff;
+    .back-end-skills-header, .front-end-skills-header {
+        font-size: 3.25em;
+        color: #fff;
+    }
+
+    .skill-description {
+        font-size: 1.25em;
+        color: #fff; 
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .python-icon , .django-icon, .postgres-icon {
+        height: 15vh;
+    }
+
+    .flask-icon {
+        height: 22vh;
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        height: 15vh;
     }
 
     /*Contact Section*/
@@ -191,10 +236,15 @@
 
     .socialInfo {
         text-align: center;
+        display: inline-block;  
     }
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
         font-size: 2.5em;
+    }
+
+    .fa.fa-linkedin.linkedinSocialIcon {
+        margin-left: 15%;
     }
 
     .socialLink:hover {
@@ -207,3 +257,19 @@
 @media only screen and (min-device-width: 1442px) { 
 
 }
+
+/*    .homeSection:after {
+        background: url('../images/carol-logo.JPG')  no-repeat center center;
+        width: 100%; 
+        height: 100vh;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.6;
+    }
+*/
