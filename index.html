@@ -12,6 +12,8 @@
     <link href='https://fonts.googleapis.com/css?family=Ruthie' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Alike' rel='stylesheet'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!-- IonIcon CDN -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Site Icon -->
     <link rel="shortcut icon" type="image/png" href="images/carol-logo.JPG"/>
     <title>Personal Portfolio</title>
@@ -19,47 +21,259 @@
 
 <body>
     
-    <!-- Navbar -->
-    <nav class="navbar navbar-inverse" id="nav">
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse" id="nav">
 
-        <div class="navbar-inner">
+            <div class="navbar-inner">
 
-            <div class="container">
-                
-                <div class="navbar-header">
+                <div class="container">
                     
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
+                    <div class="navbar-header">
+                        
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
 
-                    <a class="navbar-brand" href="#">
-                        <img src="images/icon-2.png" alt="Carol's logo" id="navIcon">
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                        <ul class="nav navbar-nav">
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    
+    <!-- Home Section -->
+    <section id="home" class="homeSection">
+
+        <div class="container">
+
+            <article class="homeArticle">
+                Carol Wanjohi is a back-end web developer who strives to build amazing web applications through carefully crafted code.
+            </article>
+
+        </div>
+
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projectsSection">
+
+        <div class="container">
+
+            <h1 class="projectSectionHeader">My Projects</h1>
+
+            <div class="row projectsRow">
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3>Github User Lookup</h3>
+
+                    <article>
+                        A JavaScript application that searches for users on Github
+                    </article>
+
+                    <a href="https://carolwanjohi.github.io/github-user-lookup/" target="_blank">
+
+                        <img src="images/github.png" alt="Github User Lookup" class="img-responsive github-project-image">
+                        <!-- <i class="ion-social-github"></i> -->
+
+                    </a>
+
+                    <a href="https://github.com/carolwanjohi/github-user-lookup.git" target="_blank">
+                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3>the C blog</h3>
+
+                    <article>
+                        A personal blogging website created with Flask
+                    </article>
+
+                    <a href="https://python-personal-blog.herokuapp.com/" target="_blank">
+
+                        <img src="images/blog.png" alt="the C blog" class="img-responsive the-C-blog-image">
+                        <!-- <i class="ion-social-rss"></i> -->
+
+                    </a>
+
+                    <a href="https://github.com/carolwanjohi/personal-bog.git">
+                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3>--help</h3>
+
+                    <article>
+                        A question and answer messaging board
+                    </article>
+
+                    <a href="https://help-message-board.firebaseapp.com/" target="_blank">
+
+                        <img src="images/q-and-a.png" alt="help" class="img-responsive help-image">
+                        <!-- <i class="ion-help-circled"></i> -->
+
+                    </a>
+
+                    <a href="https://github.com/carolwanjohi/question-and-answer-message-board.git" target="_blank">
+                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row projectsRow">
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3>Traffic Tracker</h3>
+
+                    <article>
+                        A simple Javascript application for tracking traffic
+                    </article>
+
+                    <a href="https://traffic-tracker-70c62.firebaseapp.com/" target="_blank">
+
+                        <img src="images/traffic.png" alt="Traffic Tracker" class="img-responsive traffic-tracker-image">
+
+
+                    </a>
+
+                    <a href="https://github.com/mwerumuchai/traffic-tracker.git" target="_blank">
+                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h3>Rant On</h3>
+
+                    <article>
+                        A Django application where users can rant
+                    </article>
+
+                    <a href="https://rant-on.herokuapp.com/" target="_blank">
+
+                        <img src="images/rant.png" alt="Rant On" class="img-responsive rant-on-image">
+                        <!-- <i class="ion-chatbubbles"></i> -->
+
+                    </a>
+
+                    <a href="https://github.com/carolwanjohi/rant-on.git" target="_blank">
+                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
                     </a>
 
                 </div>
 
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <!-- Empty Div -->
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 
-                    <ul class="nav navbar-nav">
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                </div>
 
+            </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skillsSection">
+
+        <h1 class="skillsHeader">Technical Skills</h1>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h5 class="skill well">Python</h5>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h5 class="skill well">Django</h5>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h5 class="skill well">PostreSQL</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h5 class="skill well">HTML5</h5>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <h5 class="skill well">Flask</h5>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="contactSection">
+
+        <div class="container">
+
+            <h1 class="contactSectionHeader">Get in touch!</h1>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 contactInfo">
+
+                    <a href="mailto:wanjohi.carol54@gmail.com" id="emailLink">
+                        <i class="fa fa-envelope emailIcon" aria-hidden="true"></i>
+
+                        <span class="email">
+                           Email : wanjohi.carol54@gmail.com 
+                        </span>
+                        
+                    </a>
+                          
+                </div>
+
+                <!-- Empty div -->
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    
+                </div>   
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 socialInfo">
+
+                    <a href="https://github.com/carolwanjohi" target="_blank" class="socialLink">
+                        <i class="fa fa-github githubSocialIcon" aria-hidden="true"></i>
+                    </a>
+
+                    <br>
+
+                    <a href="https://www.linkedin.com/in/carol-wanjohi-4a804277/" target="_blank" class="socialLink">
+                        <i class="fa fa-linkedin linkedinSocialIcon" aria-hidden="true"></i>
+                    </a>
+                    
                 </div>
 
             </div>
 
         </div>
 
-    </nav>
+    </footer>
 
 
     <!--    Javascript Links-->
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/80caa23151.js"></script>
 
 </body>
 
