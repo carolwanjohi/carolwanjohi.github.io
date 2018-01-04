@@ -140,24 +140,60 @@
         border-radius: 100%;
     }
 
-    .github-project-image {
-        height: 15vh;
-        margin-left: 30%;
-    }
-
-    .the-C-blog-image {
-        height: 18vh;
-        margin-left: 30%;
-    }
-
-    .help-image {
+    .github-project-image, .help-image  {
         height: 18vh;
         margin-left: 25%;
     }
 
-    .traffic-tracker-image, .rant-on-image {
+    .the-C-blog-image , .traffic-tracker-image, .rant-on-image {
         height: 18vh;
         margin-left: 30%;
+    }
+
+    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
+        background: rgba(0,0,0,0.5);
+        color: #fff;
+        cursor: pointer;
+        display: table;
+        position: absolute;
+        opacity: 0;
+
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        transition: opacity 500ms;
+    }
+
+    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used  {
+        top: 33%;
+        left: 36%;
+        height: 50%;
+        width: 10%;
+    }
+
+    span.blog-languages-used, span.help-languages-used {
+        top: 30%;   
+    }
+
+    span.traffic-languages-used {
+        top: 28%;
+        left: 38%;
+    }
+
+    span.rant-languages-used {
+        top: 28%;
+        width: 30%;
+        left: 33%;
+    }
+
+    span.github-languages-used span, span.blog-languages-used span, span.help-languages-used span, span.traffic-languages-used span, span.rant-languages-used span {
+        /*display: table-cell;*/
+        text-align: center;
+        /*vertical-align: middle;*/
+    }
+
+    .project-link:hover span.github-languages-used, .project-link:hover span.blog-languages-used, .project-link:hover span.help-languages-used, .project-link:hover span.traffic-languages-used, .project-link:hover span.rant-languages-used {
+        opacity: 1;
     }
 
     i.fa.fa-github.githubIcon{
