@@ -12,7 +12,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <!-- IonIcon CDN -->
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<!--     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
     <!-- Site Icon -->
     <link rel="shortcut icon" type="image/png" href="images/carol-logo.JPG"/>
     <title>Personal Portfolio</title>
@@ -66,7 +66,7 @@
     <!-- Projects Section -->
     <section id="projects" class="projectsSection">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <h1 class="projectSectionHeader">My Projects</h1>
 
@@ -84,13 +84,17 @@
                         <img src="images/github.png" alt="Github User Lookup" class="img-responsive github-project-image">
                         <!-- <i class="ion-social-github"></i> -->
 
-                        <span class="github-languages-used"> 
-
-                            <span>Javascript, Node.js, Github API, SCSS, Bootstrap3, HTML5</span>
-
-                        </span>
-
                     </a>
+                    
+                    <br>
+
+                    <small class="github-languages-used"> 
+
+                        Javascript, Node.js, Github API, SCSS, Bootstrap3, HTML5
+
+                    </small>
+
+                    <br>
 
                     <a href="https://github.com/carolwanjohi/github-user-lookup.git" target="_blank">
                         <i class="fa fa-github githubIcon black" aria-hidden="true"></i>
@@ -110,13 +114,17 @@
                         <img src="images/blog.png" alt="the C blog" class="img-responsive the-C-blog-image">
                         <!-- <i class="ion-social-rss"></i> -->
 
-                        <span class="blog-languages-used"> 
-
-                            <span>Python, Flask, Bootstrap3, PostgreSQL, CSS3, HTML5, Heroku</span>
-                            
-                        </span>
-
                     </a>
+
+                    <br>
+
+                    <small class="blog-languages-used"> 
+
+                        Python, Flask, Bootstrap3, PostgreSQL, CSS3, HTML5, Heroku
+                        
+                    </small>
+
+                    <br>
 
                     <a href="https://github.com/carolwanjohi/personal-bog.git" target="_blank">
                         <i class="fa fa-github githubIcon" aria-hidden="true"></i>
@@ -139,14 +147,17 @@
 
                         <img src="images/traffic.png" alt="Traffic Tracker" class="img-responsive traffic-tracker-image">
 
-                        <span class="traffic-languages-used"> 
-
-                            <span>Javascript, Ember, Bootstrap3, Firebase, CSS3, HTML5</span>
-                            
-                        </span>
-
-
                     </a>
+
+                    <br>
+
+                    <small class="traffic-languages-used"> 
+
+                        Javascript, Ember, Bootstrap3, Firebase, CSS3, HTML5
+                        
+                    </small>
+
+                    <br>
 
                     <a href="https://github.com/mwerumuchai/traffic-tracker.git" target="_blank">
                         <i class="fa fa-github githubIcon" aria-hidden="true"></i>
@@ -166,13 +177,17 @@
                         <img src="images/help.png" alt="help" class="img-responsive help-image">
                         <!-- <i class="ion-help-circled"></i> -->
 
-                        <span class="help-languages-used"> 
-
-                            <span>Javascript, Ember, Bootstrap3, Firebase, CSS3, HTML5</span>
-                            
-                        </span>
-
                     </a>
+
+                    <br>
+
+                    <small class="help-languages-used"> 
+
+                        Javascript, Ember, Bootstrap3, Firebase, CSS3, HTML5
+                        
+                    </small>
+
+                    <br>
 
                     <a href="https://github.com/carolwanjohi/question-and-answer-message-board.git" target="_blank">
                         <i class="fa fa-github githubIcon black" aria-hidden="true"></i>
@@ -186,61 +201,74 @@
     <!-- Skills Section -->
     <section id="skills" class="skillsSection">
 
-        <h1 class="skillsHeader">Technical Skills</h1>
+        <h1 class="skillsHeader">Skills</h1>
 
-        <div class="container">
-
+        <div class="container-fluid">
+            
             <div class="row">
-                <h2 class="back-end-skills-header">
-                    Back-end
-                </h2>
 
-                <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-description">
+                    <h2 class="back-end-skills-header">
+                        Back-end
+                    </h2>
+
+                    <span class="skill-description">
+
                         Carol Wanjohi is passionate about back-end development and the technologies involved in the process of creating functional and efficient applications.
+                        
+                    </span>
+
+                </div>
+                
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons skills-white">
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <img src="images/python.png" alt="Python Logo" class="img-responsive python-icon">
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <img src="images/django.png" alt="Django Logo" class="img-responsive django-icon">
+                    </div>
+                    
 
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <img src="images/python.png" alt="Python Logo" class="img-responsive python-icon">
-                        </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        
+                        <img src="images/flask.png" alt="FLask Logo" class="img-responsive flask-icon">
 
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <img src="images/django.png" alt="Django Logo" class="img-responsive django-icon">
-                        </div>
+                    </div>
 
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            
-                            <img src="images/flask.png" alt="FLask Logo" class="img-responsive flask-icon">
-
-                        </div>
-
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            
-                            <img src="images/postgres.png" alt="PostgreSQL Logo" class="img-responsive postgres-icon">
-                            
-                        </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        
+                        <img src="images/postgres.png" alt="PostgreSQL Logo" class="img-responsive postgres-icon">
                         
                     </div>
+                
+                
                 </div>
 
             </div>
 
             <div class="row">
+                
+                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skills-white">
+            
+                    <h2 class="front-end-skills-header">
+                        Front-end
+                    </h2>
 
-                <h2 class="front-end-skills-header">
-                    Front-end
-                </h2>
-
-                <div class="row">
-
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-description">
+                    <span class="front-end-skill-description">  
+                   
                         She is also interested in the design of websites and the frameworks used in creating a delightful user experience.
-                    </div>
+                        
+                    </span>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons">
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons">
+                    
 
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <img src="images/css3.png" alt="CSS3 Logo" class="img-responsive css3-icon">
@@ -249,23 +277,26 @@
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <img src="images/html5.png" alt="HTML5 Logo" class="img-responsive html5-icon">
                         </div>
+                        
 
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <img src="images/bootstrap.png" alt="Bootstrap Logo" class="img-responsive bootstrap-icon">
                         </div>
                         
-                    </div>
+                    
+                    
                 </div>
 
             </div>
-        </div>
         
+        </div>
+          
     </section>
 
     <!-- Contact Section -->
     <footer id="contact" class="contactSection">
 
-        <div class="container">
+        <div class="container-fluid">
 
             <h1 class="contactSectionHeader">Get in touch!</h1>
 
