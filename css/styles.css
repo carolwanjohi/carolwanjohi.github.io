@@ -176,16 +176,18 @@
         margin-top: 3%;
     }
 
-    .help-image  {
-        height: 18vh;
-        margin-left: 25%;
-    }
-
-    .the-C-blog-image, .help-image {
+    .the-C-blog-image {
         padding-left: 6%;
     }
 
-    .traffic-tracker-image, .help-image  {
+    .traffic-tracker-image {
+        padding-top: 5%;
+    }
+
+    .help-image  {
+        height: 18vh;
+        margin-left: 25%;
+        padding-left: 6%;
         padding-top: 5%;
     }
 
