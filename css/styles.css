@@ -90,23 +90,11 @@
     }
 
     .nameColumn h1 {
-        padding-top: 25%;
+        padding-top: 30%;
         color: #000;
-        font-size: 8em;
-    }
-
-    .sectionLinksList li {
-        display: inline;
-        font-size: 4em;
-    }
-
-    .sectionLinksList li > a{
-        color: #000;
-    }
-
-    .sectionLinksList li > a:hover{
-        color: #000;
-        text-decoration: none;
+        font-size: 6.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
     }
 
     .homeColumn {
@@ -116,14 +104,37 @@
     }
 
     .homeArticle {
-        padding-top: 25%;
+        padding-top: 35%;
         color: #fff;
-        font-size: 1.75em;
+        font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
     }
 
-    .web-dev-icon {
-        margin: auto;
+    .sectionLinksList li {
+        display: inline;
+        font-size: 2.25em;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 100;
     }
+
+    .sectionLinksList li > a{
+        color: #fff;
+        border: 0.01em solid #fff;
+        padding: 0.65em;
+    }
+
+    #skill-link-in-home {
+        margin-right: 0.80em;
+        margin-left: 0.80em;
+    }
+
+    .sectionLinksList li > a:hover{
+        color: #337ab7;
+        text-decoration: none;
+    }
+
 
     /*Projects section*/
     .projectsSection {
@@ -134,15 +145,48 @@
 
     .projectSectionHeader {
         font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .project-name-header {
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .project-description {
+        font-size: 1.25em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .black-project {
+        background: #000;
+        color: #fff;
     }
 
     .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
         border-radius: 100%;
     }
 
-    .github-project-image, .help-image  {
+    .github-project-image {
+        height: 18vh;
+        margin-left: 33%;
+        margin-top: 3%;
+    }
+
+    .help-image  {
         height: 18vh;
         margin-left: 25%;
+    }
+
+    .the-C-blog-image, .help-image {
+        padding-left: 6%;
+    }
+
+    .traffic-tracker-image, .help-image  {
+        padding-top: 5%;
     }
 
     .the-C-blog-image , .traffic-tracker-image, .rant-on-image {
@@ -196,10 +240,18 @@
         opacity: 1;
     }
 
-    i.fa.fa-github.githubIcon{
+    i.fa.fa-github.githubIcon {
         margin-left: -9%;
         margin-top: 10%;
         font-size: 4em;
+    }
+
+    a > i.fa.fa-github.githubIcon:hover {
+        color: #333;
+    }
+
+    a > i.fa.fa-github.githubIcon.black:hover {
+        color: #fff;
     }
 
     /*Skills Section*/
@@ -215,16 +267,22 @@
 /*        padding-top: 1.5%; 
         padding-bottom: 3%;*/ 
         text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
     }
 
     .back-end-skills-header, .front-end-skills-header {
         font-size: 3.25em;
         color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
     }
 
     .skill-description {
         font-size: 1.25em;
         color: #fff; 
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
     }
 
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
@@ -252,8 +310,14 @@
     }
 
     /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+    }
+
     .contactSectionHeader { 
-        text-align: center;   
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
     }
 
     .fa.fa-envelope.emailIcon { 
@@ -263,6 +327,8 @@
     a > span.email {
         color: #333;
         font-size: 1.30em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
     }
 
     #emailLink:hover {

@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Pattaya' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Ruthie' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Alike' rel='stylesheet'>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <!-- IonIcon CDN -->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Site Icon -->
@@ -30,7 +29,17 @@
 
                 <h1 class="nameHeader">
                     CAROL
+                    <br>
+                    WANJOHI
                 </h1>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 homeColumn">
+
+                <h1 class="homeArticle">
+                    Back-end web developer 
+                </h1> 
 
                 <br>
 
@@ -40,25 +49,17 @@
                         <a href="#projects">projects</a> 
                     </li>
 
-                    <li class="sectionLink">
-                      /  <a href="#skills">skills</a> /
+                    <li class="sectionLink" id="skill-link-in-home">
+                      <a href="#skills">skills</a>
                     </li>
 
                     <li class="sectionLink">
                         <a href="#contact">contact</a>
                     </li>
 
-                </ul>
+                </ul>  
 
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 homeColumn">
-
-                <article class="homeArticle">
-                    Carol Wanjohi is a back-end web developer who strives to build amazing web applications through carefully crafted code.
-                </article>   
-
-                <img src="images/web-dev-icon.png" alt="Web Deeloper Icon" class="img-responsive web-dev-icon">               
+                <!-- <img src="images/web-dev-icon.png" alt="Web Deeloper Icon" class="img-responsive web-dev-icon">                -->
 
             </div>
 
@@ -75,10 +76,10 @@
 
             <div class="row projectsRow">
 
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h3>Github User Lookup</h3>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 black-project">
+                    <h3 class="project-name-header">Github User Lookup</h3>
 
-                    <article>
+                    <article class="project-description">
                         A JavaScript application that searches for users on Github
                     </article>
 
@@ -96,15 +97,15 @@
                     </a>
 
                     <a href="https://github.com/carolwanjohi/github-user-lookup.git" target="_blank">
-                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
+                        <i class="fa fa-github githubIcon black" aria-hidden="true"></i>
                     </a>
 
                 </div>
                 
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h3>the C blog</h3>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <h3 class="project-name-header">the C blog</h3>
 
-                    <article>
+                    <article class="project-description">
                         A personal blogging website created with Flask
                     </article>
 
@@ -126,40 +127,15 @@
                     </a>
 
                 </div>
-                
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h3>--help</h3>
-
-                    <article>
-                        A question and answer messaging board
-                    </article>
-
-                    <a href="https://help-message-board.firebaseapp.com/" target="_blank" class="project-link">
-
-                        <img src="images/q-and-a.png" alt="help" class="img-responsive help-image">
-                        <!-- <i class="ion-help-circled"></i> -->
-
-                        <span class="help-languages-used"> 
-
-                            <span>Javascript, Ember, Bootstrap3, Firebase, CSS3, HTML5</span>
-                            
-                        </span>
-
-                    </a>
-
-                    <a href="https://github.com/carolwanjohi/question-and-answer-message-board.git" target="_blank">
-                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
-                    </a>
-                </div>
 
             </div>
 
             <div class="row projectsRow">
 
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h3>Traffic Tracker</h3>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <h3 class="project-name-header">Traffic Tracker</h3>
 
-                    <article>
+                    <article class="project-description">
                         A simple Javascript application for tracking traffic
                     </article>
 
@@ -182,36 +158,29 @@
 
                 </div>
                 
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <h3>Rant On</h3>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 black-project">
+                    <h3 class="project-name-header">--help</h3>
 
-                    <article>
-                        A Django application where users can rant
+                    <article class="project-description">
+                        A question and answer messaging board
                     </article>
 
-                    <a href="https://rant-on.herokuapp.com/" target="_blank" class="project-link">
+                    <a href="https://help-message-board.firebaseapp.com/" target="_blank" class="project-link">
 
-                        <img src="images/rant.png" alt="Rant On" class="img-responsive rant-on-image">
-                        <!-- <i class="ion-chatbubbles"></i> -->
+                        <img src="images/help.png" alt="help" class="img-responsive help-image">
+                        <!-- <i class="ion-help-circled"></i> -->
 
-                        <span class="rant-languages-used"> 
+                        <span class="help-languages-used"> 
 
-                            <span>Python, Django, Bootstrap3, PostgreSQL, CSS3, HTML5, Heroku, Google Plus API</span>
+                            <span>Javascript, Ember, Bootstrap3, Firebase, CSS3, HTML5</span>
                             
                         </span>
 
                     </a>
 
-                    <a href="https://github.com/carolwanjohi/rant-on.git" target="_blank">
-                        <i class="fa fa-github githubIcon" aria-hidden="true"></i>
+                    <a href="https://github.com/carolwanjohi/question-and-answer-message-board.git" target="_blank">
+                        <i class="fa fa-github githubIcon black" aria-hidden="true"></i>
                     </a>
-
-                </div>
-
-                <!-- Empty Div -->
-                
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-
                 </div>
 
             </div>
@@ -233,7 +202,7 @@
                 <div class="row">
 
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-description">
-                        Carol Wanjohi is passionate about back-end development and the technologies involved.
+                        Carol Wanjohi is passionate about back-end development and the technologies involved in the process of creating function and efficient applications.
                     </div>
 
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 skill-icons">
@@ -385,4 +354,6 @@
         </div>
 
     </nav>
+
+    
  -->
