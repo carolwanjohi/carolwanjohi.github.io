@@ -1,49 +1,298 @@
-@media only screen and (min-device-width: 0px) and (max-device-width: 376px)  { 
-    /*Navbar*/
-/*    #nav {
-        background: #fff;
-        border-color: #fff;
+@media screen and (min-device-width: 320px) and (max-device-width: 320px)  { 
+
+    /*Home section*/
+    .homeSection {
+        width: 100vw;
+        height: 100vh;
     }
 
-    #navIcon {
+    .nameColumn {
+        text-align: center;
+        height: 50vh;
+    }
+
+    .nameColumn h1 {
+        padding-top: 30%;
+        color: #000;
+        font-size: 3.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .homeColumn {
+        background: #000;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .homeArticle {
+        padding-top: 30%;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .sectionLinksList li {
+        display: inline;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .sectionLinksList li > a{
+        color: #fff;
+        border: 0.01em solid #fff;
+        padding: 0.35em;
+    }
+
+    #skill-link-in-home {
+        margin-right: 0.80em;
+        margin-left: 0.80em;
+    }
+
+    .sectionLinksList li > a:hover{
+        color: #337ab7;
+        text-decoration: none;
+    }
+
+    /*Projects section*/
+    .projectsSection {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .projectSectionHeader {
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .project-name-header {
+        font-size: 1.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .project-description {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .black-project {
+        background: #000;
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
         border-radius: 100%;
-        height: 12vh;
+        float: left;
+    }
+
+    .github-project-image {
+        height: 9vh;
+        padding-top: 1%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .the-C-blog-image {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .traffic-tracker-image {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .help-image  {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
+        display: none;
+    }
+
+    i.fa.fa-github.githubIcon {
+        margin-top: -10%;
+        font-size: 4em;
+    }
+
+    a > i.fa.fa-github.githubIcon:hover {
+        color: #333;
+    }
+
+    a > i.fa.fa-github.githubIcon.black:hover {
+        color: #fff;
+    }
+
+    /*Skills Section*/
+    .skillsSection {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000; 
+    }
+
+    .skillsHeader {
+        font-size: 3em;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .back-end-skills-header, .front-end-skills-header {
+        font-size: 2.25em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+    }
+
+    .skill-description, .front-end-skill-description  {
+        font-size: 0.95em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .back-end-skills-header, .skill-description {
+        color: #fff;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #000;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        margin-bottom: -1%;
+    }
+
+    .front-end-column {
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .back-end-column {
+        padding-bottom: 4%;
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+    }
+
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 9vh;
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+
+    .flask-icon {
+        height: 17vh;
         margin-top: -22%;
     }
 
-    button.navbar-toggle {
-        margin-top: 6%;
+    .postgres-icon {
+        margin-top: 5%;  
     }
 
-    .navbar-inverse .navbar-toggle {
-        background: #333;
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
     }
 
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
+    .css3-icon, .html5-icon {
+        height: 10vh;
+        padding-left: 20%;
+        padding-top: 8%;
     }
-    
-    .navbar .navbar-collapse {
+
+    .bootstrap-icon {
+        height: 16vh;
+        padding-top: 12%;
+        padding-left: 5%;
+        padding-bottom: 25%; 
+    }
+
+    /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+    }
+
+    .contactInfo {
+        text-align: center; 
+
+    }
+
+    .contactSectionHeader { 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+        font-size: 2em; 
+    }
+
+    .fa.fa-envelope.emailIcon { 
+        font-size: 1.5em;
+    }
+
+    a > span.email {
+        color: #333;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    #emailLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .socialInfo {
         text-align: center;
-    }*/
+        display: inline-block;  
+    }
 
+    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        font-size: 2em;
+    }
+
+    .fa.fa-linkedin.linkedinSocialIcon {
+        margin-left: 5%;
+    }
+
+    .socialLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px)  { 
+ 
     /*Home section*/
     .homeSection {
-        width: 100%;
+        width: 100vw;
         height: 100vh;
-        /*font-size: 2em;*/
-        /*text-align: center;*/
-        /*margin-top: 0.5%;*/
     }
 
     .nameColumn {
         text-align: center;
-        /*height: 100vh;*/
+        height: 50vh;
     }
 
     .nameColumn h1 {
-        /*padding-top: 30%;*/
+        padding-top: 30%;
         color: #000;
         font-size: 3.75em;
         font-family: 'Montserrat', sans-serif;
@@ -52,12 +301,12 @@
 
     .homeColumn {
         background: #000;
-        /*height: 100vh;*/
+        height: 50vh;
         text-align: center;
     }
 
     .homeArticle {
-        /*padding-top: 35%;*/
+        padding-top: 30%;
         color: #fff;
         font-size: 2em;
         font-family: 'Montserrat', sans-serif;
@@ -66,7 +315,7 @@
 
     .sectionLinksList li {
         display: inline;
-        /*font-size: 2.25em;*/
+        font-size: 1em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: 100;
@@ -90,8 +339,577 @@
 
     /*Projects section*/
     .projectsSection {
-        width: 100%;
-        margin-top: -45%;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .projectSectionHeader {
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .project-name-header {
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .project-description {
+        font-size: 1.05em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .black-project {
+        background: #000;
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
+        border-radius: 100%;
+        float: left;
+    }
+
+    .github-project-image {
+        height: 9vh;
+        padding-top: 1%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1%;
+    }
+
+    .the-C-blog-image {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .traffic-tracker-image {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1%;
+    }
+
+    .help-image  {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1%;
+    }
+
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
+        display: none;
+    }
+
+    i.fa.fa-github.githubIcon {
+        /*margin-left: -9%;*/
+        margin-top: -10%;
+        font-size: 4em;
+    }
+
+    a > i.fa.fa-github.githubIcon:hover {
+        color: #333;
+    }
+
+    a > i.fa.fa-github.githubIcon.black:hover {
+        color: #fff;
+    }
+
+    /*Skills Section*/
+    .skillsSection {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000; 
+    }
+
+    .skillsHeader {
+        font-size: 3em;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .back-end-skills-header, .front-end-skills-header {
+        font-size: 2.25em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+    }
+
+    .skill-description, .front-end-skill-description  {
+        font-size: 0.95em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .back-end-skills-header, .skill-description {
+        color: #fff;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #000;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        margin-bottom: -1%;
+    }
+
+    .front-end-column {
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .back-end-column {
+        padding-bottom: 4%;
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+    }
+
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 9vh;
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+
+    .flask-icon {
+        height: 17vh;
+        margin-top: -5%;
+    }
+
+    .postgres-icon {
+        margin-top: 15%;  
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
+    }
+
+    .css3-icon, .html5-icon {
+        height: 10vh;
+        padding-left: 20%;
+        padding-top: 8%;
+    }
+
+    .bootstrap-icon {
+        height: 16vh;
+        padding-top: 12%;
+        padding-left: 5%;
+        padding-bottom: 25%; 
+    }
+
+    /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+    }
+
+    .contactInfo {
+        text-align: center; 
+
+    }
+
+    .contactSectionHeader { 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+        font-size: 2em; 
+    }
+
+    .fa.fa-envelope.emailIcon { 
+        font-size: 1.5em;
+    }
+
+    a > span.email {
+        color: #333;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    #emailLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .socialInfo {
+        text-align: center;
+        display: inline-block;  
+    }
+
+    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        font-size: 2em;
+    }
+
+    .fa.fa-linkedin.linkedinSocialIcon {
+        margin-left: 5%;
+    }
+
+    .socialLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 426px)  { 
+ 
+    /*Home section*/
+    .homeSection {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nameColumn {
+        text-align: center;
+        height: 50vh;
+    }
+
+    .nameColumn h1 {
+        padding-top: 30%;
+        color: #000;
+        font-size: 3.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .homeColumn {
+        background: #000;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .homeArticle {
+        padding-top: 30%;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .sectionLinksList li {
+        display: inline;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .sectionLinksList li > a{
+        color: #fff;
+        border: 0.01em solid #fff;
+        padding: 0.35em;
+    }
+
+    #skill-link-in-home {
+        margin-right: 0.80em;
+        margin-left: 0.80em;
+    }
+
+    .sectionLinksList li > a:hover{
+        color: #337ab7;
+        text-decoration: none;
+    }
+
+    /*Projects section*/
+    .projectsSection {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .projectSectionHeader {
+        font-size: 2.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .project-name-header {
+        font-size: 2.15em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .project-description {
+        font-size: 1.15em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .black-project {
+        background: #000;
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
+        border-radius: 100%;
+        float: left;
+    }
+
+    .github-project-image {
+        height: 9vh;
+        padding-top: 1%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1%;
+    }
+
+    .the-C-blog-image {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .traffic-tracker-image {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1%;
+    }
+
+    .help-image  {
+        height: 9vh;
+        padding-top: 2.5%;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 1%;
+    }
+
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
+        display: none;
+    }
+
+    i.fa.fa-github.githubIcon {
+        margin-top: -10%;
+        font-size: 4em;
+    }
+
+    a > i.fa.fa-github.githubIcon:hover {
+        color: #333;
+    }
+
+    a > i.fa.fa-github.githubIcon.black:hover {
+        color: #fff;
+    }
+
+    /*Skills Section*/
+    .skillsSection {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000; 
+    }
+
+    .skillsHeader {
+        font-size: 3em;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .back-end-skills-header, .front-end-skills-header {
+        font-size: 2.25em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+    }
+
+    .skill-description, .front-end-skill-description  {
+        font-size: 0.95em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .back-end-skills-header, .skill-description {
+        color: #fff;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #000;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        margin-bottom: -1%;
+    }
+
+    .front-end-column {
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+
+    .back-end-column {
+        padding-bottom: 4%;
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+    }
+
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 9vh;
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+
+    .flask-icon {
+        height: 19vh;
+        margin-top: -5%;
+    }
+
+    .postgres-icon {
+        margin-top: 15%;  
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
+    }
+
+    .css3-icon, .html5-icon {
+        height: 10vh;
+        padding-left: 20%;
+        padding-top: 8%;
+    }
+
+    .bootstrap-icon {
+        height: 18vh;
+        padding-top: 12%;
+        padding-left: 10%;
+        padding-bottom: 25%; 
+    }
+
+    /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+    }
+
+    .contactInfo {
+        text-align: center; 
+
+    }
+
+    .contactSectionHeader { 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+        font-size: 2em; 
+    }
+
+    .fa.fa-envelope.emailIcon { 
+        font-size: 1.5em;
+    }
+
+    a > span.email {
+        color: #333;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    #emailLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .socialInfo {
+        text-align: center;
+        display: inline-block;  
+    }
+
+    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        font-size: 2em;
+    }
+
+    .fa.fa-linkedin.linkedinSocialIcon {
+        margin-left: 5%;
+    }
+
+    .socialLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-device-width: 427px) and (max-device-width: 770px)  { 
+ 
+    /*Home section*/
+    .homeSection {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nameColumn {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .nameColumn h1 {
+        padding-top: 70%;
+        color: #000;
+        font-size: 3.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .homeColumn {
+        background: #000;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .homeArticle {
+        padding-top: 73%;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .sectionLinksList li {
+        display: inline;
+        font-size: 1.45em;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .sectionLinksList li > a{
+        color: #fff;
+        border: 0.01em solid #fff;
+        padding: 0.35em;
+    }
+
+    #skill-link-in-home {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    .sectionLinksList li > a:hover{
+        color: #337ab7;
+        text-decoration: none;
+    }
+
+    /*Projects section*/
+    .projectsSection {
+        width: 100vw;
+        height: 100vh;
         text-align: center;
     }
 
@@ -99,6 +917,7 @@
         font-size: 3em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        padding-bottom: 2%;
     }
 
     .project-name-header {
@@ -116,6 +935,7 @@
     .black-project {
         background: #000;
         color: #fff;
+        padding-bottom: 3.95%;
     }
 
     .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
@@ -124,36 +944,40 @@
 
     .github-project-image {
         height: 18vh;
-        margin-left: 33%;
-        padding-top: 1%;
+        padding-top: 2%;
+        padding-left: 30%;
+        padding-right: 30%;
+        /*padding-bottom: 1%;*/
     }
 
     .the-C-blog-image {
         height: 18vh;
-        margin-left: 30%;
-        padding-left: 6%;
+        padding-top: 2%;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     .traffic-tracker-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-top: 5%;
+        height: 16vh;
+        padding-top: 1%;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     .help-image  {
         height: 18vh;
-        margin-left: 25%;
-        padding-left: 6%;
-        padding-top: 5%;
+        padding-top: 6%;
+        padding-left: 30%;
+        padding-right: 30%;
+        margin-bottom: 2%;
     }
 
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
         display: none;
     }
 
     i.fa.fa-github.githubIcon {
-        margin-left: -9%;
-        margin-top: 10%;
+        margin-top: -10%;
         font-size: 4em;
     }
 
@@ -167,75 +991,88 @@
 
     /*Skills Section*/
     .skillsSection {
-        width: 100%;
-        /*height: 100vh;*/
+        width: 100vw;
+        height: 100vh;
         background-color: #000; 
     }
 
     .skillsHeader {
-        font-size: 3em;
+        font-size: 3.75em;
         color: #fff;
-/*        padding-top: 1.5%; 
-        padding-bottom: 3%;*/ 
+        padding-top: 0.5%; 
+        padding-bottom: 0.5%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
 
     .back-end-skills-header, .front-end-skills-header {
-        font-size: 2.25em;
-        color: #fff;
+        font-size: 2.75em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600; 
     }
 
-    .skill-description {
-        font-size: 0.95em;
-        color: #fff; 
+    .skill-description, .front-end-skill-description  {
+        font-size: 1em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
 
+    .back-end-skills-header, .skill-description {
+        color: #fff;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #000;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+
+    .front-end-column {
+        /*padding-top: 1%;*/
+        padding-bottom: 25.65%;
+    }
+
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .python-icon , .django-icon {
-        margin-top: 9%;
-    }
-
-    .python-icon , .django-icon, .postgres-icon {
-        height: 9vh;
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 12vh;
+        padding-left: 20%;
+        padding-top: 2%;
     }
 
     .flask-icon {
-        height: 17vh;
-        margin-top: 9%;
+        height: 24vh;
+        margin-top: -15%;
     }
 
     .postgres-icon {
-        margin-top: 25%;  
+        margin-top: 15%;  
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 9vh;
     }
 
     .css3-icon, .html5-icon {
-        margin-top: 9%;   
+        height: 17vh;
+        padding-left: 20%;
+        padding-top: 22%;
     }
 
     .bootstrap-icon {
-        margin-top: 9%;
-        margin-bottom: 25%; 
+        height: 18vh;
+        padding-left: 7%;
+        padding-top: 15%;
     }
 
     /*Contact Section*/
@@ -261,7 +1098,7 @@
 
     a > span.email {
         color: #333;
-        font-size: 1em;
+        font-size: 0.87em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
@@ -291,47 +1128,44 @@
 
 }
 
-@media only screen and (min-device-width: 377px) and (max-device-width: 426px)  { 
-
+@media screen and (min-device-width: 771px) and (max-device-width: 1025px)  { 
+ 
     /*Home section*/
     .homeSection {
-        width: 100%;
+        width: 100vw;
         height: 100vh;
-        /*font-size: 2em;*/
-        /*text-align: center;*/
-        /*margin-top: 0.5%;*/
     }
 
     .nameColumn {
         text-align: center;
-        /*height: 100vh;*/
+        height: 100vh;
     }
 
     .nameColumn h1 {
-        /*padding-top: 30%;*/
+        padding-top: 50%;
         color: #000;
-        font-size: 3.75em;
+        font-size: 4.75em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
 
     .homeColumn {
         background: #000;
-        /*height: 100vh;*/
+        height: 100vh;
         text-align: center;
     }
 
     .homeArticle {
-        /*padding-top: 35%;*/
+        padding-top: 53%;
         color: #fff;
-        font-size: 2em;
+        font-size: 2.5em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
 
     .sectionLinksList li {
         display: inline;
-        /*font-size: 2.25em;*/
+        font-size: 1.75em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: 100;
@@ -344,8 +1178,8 @@
     }
 
     #skill-link-in-home {
-        margin-right: 0.80em;
-        margin-left: 0.80em;
+        margin-right: 2em;
+        margin-left: 2em;
     }
 
     .sectionLinksList li > a:hover{
@@ -355,8 +1189,8 @@
 
     /*Projects section*/
     .projectsSection {
-        width: 100%;
-        margin-top: -45%;
+        width: 100vw;
+        height: 100vh;
         text-align: center;
     }
 
@@ -364,6 +1198,7 @@
         font-size: 3em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        /*padding-bottom: 2%;*/
     }
 
     .project-name-header {
@@ -381,6 +1216,7 @@
     .black-project {
         background: #000;
         color: #fff;
+        padding-bottom: 1.25%;
     }
 
     .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
@@ -389,37 +1225,45 @@
 
     .github-project-image {
         height: 18vh;
-        margin-left: 33%;
+        padding-top: 2%;
+        padding-left: 30%;
+        padding-right: 30%;
+        /*padding-bottom: 1%;*/
+    }
+
+    .the-C-blog-image {
+        height: 18vh;
+        padding-top: 2%;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .traffic-tracker-image {
+        height: 17vh;
         padding-top: 1%;
-    }
-
-    .the-C-blog-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-left: 6%;
-    }
-
-    .traffic-tracker-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-top: 5%;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     .help-image  {
-        height: 18vh;
-        margin-left: 25%;
-        padding-left: 6%;
-        padding-top: 5%;
+        height: 16vh;
+        padding-top: 6%;
+        padding-left: 33%;
+        padding-right: 33%;
+        margin-bottom: 2%;
     }
 
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
-        display: none;
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
+        font-size: 0.95em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        top: 5%;
     }
 
     i.fa.fa-github.githubIcon {
-        margin-left: -9%;
-        margin-top: 10%;
+        padding-top: 2%;
         font-size: 4em;
+        margin-left: -15%;
     }
 
     a > i.fa.fa-github.githubIcon:hover {
@@ -432,649 +1276,130 @@
 
     /*Skills Section*/
     .skillsSection {
-        width: 100%;
-        /*height: 100vh;*/
+        width: 100vw;
+        height: 100vh;
         background-color: #000; 
     }
 
     .skillsHeader {
-        font-size: 3em;
+        font-size: 3.90em;
         color: #fff;
-/*        padding-top: 1.5%; 
-        padding-bottom: 3%;*/ 
+        padding-top: 0.15%; 
+        padding-bottom: 0.15%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
 
     .back-end-skills-header, .front-end-skills-header {
+        font-size: 3.25em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+    }
+
+    .skill-description, .front-end-skill-description  {
+        font-size: 1.15em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .back-end-skills-header, .skill-description {
+        color: #fff;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #000;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+
+    .front-end-column {
+        /*padding-top: 1%;*/
+        padding-bottom: 21.75%;
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+    }
+
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 12vh;
+        padding-left: 20%;
+        padding-top: 2%;
+    }
+
+    .flask-icon {
+        height: 24vh;
+        margin-top: -15%;
+    }
+
+    .postgres-icon {
+        margin-top: 5%;  
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
+    }
+
+    .css3-icon, .html5-icon {
+        height: 17vh;
+        padding-left: 20%;
+        padding-top: 22%;
+    }
+
+    .bootstrap-icon {
+        height: 18vh;
+        padding-left: 7%;
+        padding-top: 15%;
+    }
+
+    /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+    }
+
+    .contactInfo {
+        text-align: center; 
+
+    }
+
+    .contactSectionHeader { 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+        font-size: 2em; 
+    }
+
+    .fa.fa-envelope.emailIcon { 
+        font-size: 1.75em;
+    }
+
+    a > span.email {
+        color: #333;
+        font-size: 1.15em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    #emailLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .socialInfo {
+        text-align: center;
+        display: inline-block;  
+    }
+
+    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
         font-size: 2.25em;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-    }
-
-    .skill-description {
-        font-size: 0.95em;
-        color: #fff; 
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .python-icon , .django-icon, .postgres-icon, .flask-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .python-icon , .django-icon {
-        margin-top: 9%;
-    }
-
-    .python-icon , .django-icon, .postgres-icon {
-        height: 9vh;
-    }
-
-    .flask-icon {
-        height: 17vh;
-        margin-top: 9%;
-    }
-
-    .postgres-icon {
-        margin-top: 25%;  
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 9vh;
-    }
-
-    .css3-icon, .html5-icon {
-        margin-top: 9%;   
-    }
-
-    .bootstrap-icon {
-        margin-top: 9%;
-        margin-bottom: 25%; 
-    }
-
-    /*Contact Section*/
-    .contactSection {
-        padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
-    }
-
-    .contactSectionHeader { 
-        text-align: center; 
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-        font-size: 2em; 
-    }
-
-    .fa.fa-envelope.emailIcon { 
-        font-size: 1.5em;
-    }
-
-    a > span.email {
-        color: #333;
-        font-size: 1em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    #emailLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-    .socialInfo {
-        text-align: center;
-        display: inline-block;  
-    }
-
-    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
-        font-size: 2em;
-    }
-
-    .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
-    }
-
-    .socialLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-}
-
-@media only screen and (min-device-width: 427px) and (max-device-width: 770px)  { 
-
-    /*Home section*/
-    .homeSection {
-        width: 100%;
-        height: 100vh;
-        /*font-size: 2em;*/
-        /*text-align: center;*/
-        /*margin-top: 0.5%;*/
-    }
-
-    .nameColumn {
-        text-align: center;
-        height: 100vh;
-    }
-
-    .nameColumn h1 {
-        padding-top: 30%; 
-        color: #000;
-        font-size: 3.75em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .homeColumn {
-        background: #000;
-        height: 100vh;
-        text-align: center;
-    }
-
-    .homeArticle {
-        padding-top: 35%;
-        color: #fff;
-        font-size: 2em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .sectionLinksList li {
-        display: inline;
-        /*font-size: 2.25em;*/
-        font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        font-weight: 100;
-    }
-
-    .sectionLinksList li > a{
-        color: #fff;
-        border: 0.01em solid #fff;
-        padding: 0.35em;
-    }
-
-    #skill-link-in-home {
-        margin-right: 0.80em;
-        margin-left: 0.80em;
-    }
-
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
-    }
-
-    /*Projects section*/
-    .projectsSection {
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        /*margin-top: 3%; */
-    }
-
-    .projectSectionHeader {
-        font-size: 1.5em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .project-name-header {
-        font-size: 1em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;  
-    }
-
-    .project-description {
-        font-size: 0.75em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
-    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
-        border-radius: 100%;
-    }
-
-    .github-project-image {
-        height: 12vh;
-        margin-left: 33%;
-        /*padding-top: 1%;*/
-    }
-
-    .the-C-blog-image {
-        height: 12vh;
-        margin-left: 30%;
-        padding-left: 6%;
-    }
-
-    .traffic-tracker-image {
-        height: 12vh;
-        margin-left: 30%;
-        /*padding-top: 5%;*/
-    }
-
-    .help-image  {
-        height: 12vh;
-        margin-left: 25%;
-        padding-left: 6%;
-        /*padding-top: 5%;*/
-    }
-
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
-        display: none;
-    }
-
-    i.fa.fa-github.githubIcon {
-        margin-left: -9%;
-        margin-top: 5%;
-        font-size: 3em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
-    }
-
-    /*Skills Section*/
-    .skillsSection {
-        /*width: 100%;*/
-        height: 100vh;
-        background-color: #000; 
-    }
-
-    .skillsHeader {
-        font-size: 2.5em;
-        color: #fff;
-/*        padding-top: 1.5%; 
-        padding-bottom: 3%;*/ 
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .back-end-skills-header, .front-end-skills-header {
-        font-size: 2em;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-    }
-
-    .skill-description {
-        font-size: 0.95em;
-        color: #fff; 
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .python-icon , .django-icon, .postgres-icon, .flask-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .python-icon , .django-icon {
-        margin-top: 9%;
-    }
-
-    .python-icon , .django-icon, .postgres-icon {
-        height: 9vh;
-    }
-
-    .flask-icon {
-        height: 17vh;
-        margin-top: 9%;
-    }
-
-    .postgres-icon {
-        margin-top: 25%;  
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 9vh;
-    }
-
-    .css3-icon, .html5-icon {
-        margin-top: 9%;   
-    }
-
-    .bootstrap-icon {
-        margin-top: 9%;
-        margin-bottom: 25%; 
-    }
-
-    /*Contact Section*/
-    .contactSection {
-        padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
-    }
-
-    .contactSectionHeader { 
-        text-align: center; 
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-        font-size: 2em; 
-    }
-
-    .fa.fa-envelope.emailIcon { 
-        font-size: 1.5em;
-    }
-
-    a > span.email {
-        color: #333;
-        font-size: 1em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    #emailLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-    .socialInfo {
-        text-align: center;
-        display: inline-block;  
-    }
-
-    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
-        font-size: 2em;
-    }
-
-    .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
-    }
-
-    .socialLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-}
-
-@media only screen and (min-device-width: 771px) and (max-device-width: 1025px)  {  
-
-    /*Home section*/
-    .homeSection {
-        width: 100%;
-        height: 100vh;
-        /*font-size: 2em;*/
-        /*text-align: center;*/
-        /*margin-top: 0.5%;*/
-    }
-
-    .nameColumn {
-        text-align: center;
-        height: 100vh;
-    }
-
-    .nameColumn h1 {
-        padding-top: 30%; 
-        color: #000;
-        font-size: 3.75em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .homeColumn {
-        background: #000;
-        height: 100vh;
-        text-align: center;
-    }
-
-    .homeArticle {
-        padding-top: 35%;
-        color: #fff;
-        font-size: 2em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .sectionLinksList li {
-        display: inline;
-        /*font-size: 2.25em;*/
-        font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        font-weight: 100;
-    }
-
-    .sectionLinksList li > a{
-        color: #fff;
-        border: 0.01em solid #fff;
-        padding: 0.35em;
-    }
-
-    #skill-link-in-home {
-        margin-right: 0.80em;
-        margin-left: 0.80em;
-    }
-
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
-    }
-
-    /*Projects section*/
-    .projectsSection {
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        /*margin-top: 3%; */
-    }
-
-    .projectSectionHeader {
-        font-size: 1.5em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .project-name-header {
-        font-size: 1em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;  
-    }
-
-    .project-description {
-        font-size: 0.75em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
-    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
-        border-radius: 100%;
-    }
-
-    .github-project-image {
-        height: 12vh;
-        margin-left: 33%;
-        /*padding-top: 1%;*/
-    }
-
-    .the-C-blog-image {
-        height: 12vh;
-        margin-left: 30%;
-        padding-left: 6%;
-    }
-
-    .traffic-tracker-image {
-        height: 12vh;
-        margin-left: 30%;
-        /*padding-top: 5%;*/
-    }
-
-    .help-image  {
-        height: 12vh;
-        margin-left: 25%;
-        padding-left: 6%;
-        /*padding-top: 5%;*/
-    }
-
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
-        display: none;
-    }
-
-    i.fa.fa-github.githubIcon {
-        margin-left: -9%;
-        margin-top: 5%;
-        font-size: 3em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
-    }
-
-    /*Skills Section*/
-    .skillsSection {
-        /*width: 100%;*/
-        height: 100vh;
-        background-color: #000; 
-    }
-
-    .skillsHeader {
-        font-size: 2.5em;
-        color: #fff;
-/*        padding-top: 1.5%; 
-        padding-bottom: 3%;*/ 
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .back-end-skills-header, .front-end-skills-header {
-        font-size: 2em;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-    }
-
-    .skill-description {
-        font-size: 0.95em;
-        color: #fff; 
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .python-icon , .django-icon, .postgres-icon, .flask-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .python-icon , .django-icon {
-        margin-top: 9%;
-    }
-
-    .python-icon , .django-icon, .postgres-icon {
-        height: 9vh;
-    }
-
-    .flask-icon {
-        height: 17vh;
-        margin-top: 9%;
-    }
-
-    .postgres-icon {
-        margin-top: 25%;  
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 9vh;
-    }
-
-    .css3-icon, .html5-icon {
-        margin-top: 9%;   
-    }
-
-    .bootstrap-icon {
-        margin-top: 9%;
-        margin-bottom: 25%; 
-    }
-
-    /*Contact Section*/
-    .contactSection {
-        padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
-    }
-
-    .contactSectionHeader { 
-        text-align: center; 
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-        font-size: 2em; 
-    }
-
-    .fa.fa-envelope.emailIcon { 
-        font-size: 1.5em;
-    }
-
-    a > span.email {
-        color: #333;
-        font-size: 1em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    #emailLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-    .socialInfo {
-        text-align: center;
-        display: inline-block;  
-    }
-
-    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
-        font-size: 2em;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
@@ -1088,7 +1413,654 @@
   
 }
 
-@media only screen and (min-device-width: 1026px) and (max-device-width: 1441px)  { 
+@media screen and (min-device-width: 1026px) and (max-device-width: 1440px)  { 
+
+    /*Home section*/
+    .homeSection {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nameColumn {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .nameColumn h1 {
+        padding-top: 30%;
+        color: #000;
+        font-size: 6.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .homeColumn {
+        background: #000;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .homeArticle {
+        padding-top: 35%;
+        color: #fff;
+        font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .sectionLinksList li {
+        display: inline;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .sectionLinksList li > a:link {
+        color: #fff;
+        border-bottom: 0.05em solid #fff;
+        padding: 0.65em;
+    } 
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        padding: 0.65em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1000;
+    }
+
+    #skill-link-in-home {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    /*Projects section*/
+    .projectsSection {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .projectSectionHeader {
+        font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .black-project {
+        background: #000;
+    }
+
+    .project-name-header {
+        font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .white-project-header {
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .traffic-tracker-image, .help-image  {
+        border-radius: 100%;
+        height: 34vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.5%;
+    }
+
+    .project-description {
+        font-size: 1.25em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .githubScreenshot, .blogScreenshot, .trafficScreenshot, .helpScreenshot {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.05em solid #000;
+    }
+
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        top: 5%;
+    }
+
+    .viewSiteButton {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+        width: 8vw;
+        height: 5vh;
+        font-size: 1.15em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-right: 20%;
+        display: inline-block;
+    }
+
+    .viewSiteButton:link {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:visited {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:hover {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    }
+
+    i.fa.fa-github.githubIcon {
+        color: #000;
+        font-size: 4em;
+        vertical-align: middle;
+    }
+
+    a > i.fa.fa-github.githubIcon:hover {
+        font-weight: 1000;
+        text-decoration: none;
+    }
+
+    /*Skills Section*/
+    .skillsSection {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff; 
+    }
+
+    .skillsHeader {
+        font-size: 4.5em;
+        color: #000;
+        padding-top: 0.25%; 
+        padding-bottom: 0.25%; 
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 4.5%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 5.75%;
+    }
+
+    .back-end-skills-header, .front-end-skills-header {
+        font-size: 3.5em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+    }
+
+    .skill-description, .front-end-skill-description {
+        font-size: 1.5em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .back-end-skills-header, .skill-description {
+        color: #000;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #fff;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        /*padding-top: 4%;*/
+        /*padding-bottom: 0%;*/
+    }
+
+    .front-end-column {
+        /*padding-top: 2%;*/
+        /*padding-bottom: 17.6%;*/
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon  {
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+
+    .python-icon , .django-icon, .postgres-icon {
+        height: 15vh;
+    }
+
+    .flask-icon {
+        height: 13vh;
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        height: 21vh;
+        padding-left: 20%;
+        padding-top: 11%;
+    }
+
+    .bootstrap-icon {
+        height: 19vh;
+        padding-left: 23%;
+        padding-top: 9%;    
+    }
+
+    /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+        margin-top: -0.5%;
+    }
+
+    .contactSectionHeader { 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .fa.fa-envelope.emailIcon { 
+        color: #000;
+        font-size: 2.5em;
+    }
+
+    a > span.email {
+        color: #000;
+        font-size: 1.30em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    #emailLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .socialInfo {
+        text-align: center;
+        display: inline-block;  
+    }
+
+    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        color: #000;
+        font-size: 2.5em;
+    }
+
+    .fa.fa-linkedin.linkedinSocialIcon {
+        padding-left: 10%;
+    }
+
+    .socialLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-device-width: 1441px) {  
+
+    /*Home section*/
+    .homeSection {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .nameColumn {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .nameColumn h1 {
+        padding-top: 50%;
+        color: #000;
+        font-size: 8em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .homeColumn {
+        background: #000;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .homeArticle {
+        padding-top: 50%;
+        color: #fff;
+        font-size: 5.75em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .sectionLinksList li {
+        display: inline;
+        font-size: 4.25em;
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .sectionLinksList li > a:link{
+        color: #fff;
+        border-bottom: 0.01em solid #fff;
+        padding: 0.45em;
+    } 
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        padding: 0.65em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1000;
+    }
+
+    #skill-link-in-home {
+        margin-right: 1.75em;
+        margin-left: 1.75em;
+    }
+
+    /*Projects section*/
+    .projectsSection {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .projectSectionHeader {
+        font-size: 6em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .black-project {
+        background: #000;
+    }
+
+    .project-name-header {
+        font-size: 5em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+    }
+
+    .white-project-header {
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
+        border-radius: 100%;
+        height: 38vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.5%;
+    }
+
+    .modal-dialog {
+        width: 75vw;
+    }
+
+    .modal-body {
+        height: auto;
+    }
+
+    button.close {
+        font-size: 4.5em;
+    }
+
+    .project-description {
+        font-size: 3em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        padding-top: 0.75%;
+    }
+
+    .githubScreenshot, .blogScreenshot, .trafficScreenshot, .helpScreenshot {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.05em solid #000;
+    }
+
+    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
+        font-size: 2em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        top: 5%;
+    }
+
+    .viewSiteButton {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+        width: 7.75vw;
+        height: 4.5vh;
+        font-size: 2.40em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-right: 20%;
+        display: inline-block;
+    }
+
+    .viewSiteButton:link {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:visited {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:hover {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    }
+
+    i.fa.fa-github.githubIcon {
+        color: #000;
+        font-size: 7.5em;
+        vertical-align: middle;
+    }
+
+    a > i.fa.fa-github.githubIcon:hover {
+        font-weight: 1000;
+        text-decoration: none;
+    }
+
+    /*Skills Section*/
+    .skillsSection {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff; 
+    }
+
+    .skillsHeader {
+        font-size: 5em;
+        color: #000;
+        padding-top: 1%; 
+        padding-bottom: 1%; 
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 4.5%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 8.25%;
+    }
+
+    .back-end-skills-header, .front-end-skills-header {
+        font-size: 5em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600; 
+    }
+
+    .skill-description, .front-end-skill-description {
+        font-size: 2.75em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    .back-end-skills-header, .skill-description {
+        color: #000;
+    }
+
+    .front-end-skills-header, .front-end-skill-description {
+        color: #fff;
+    }
+
+    .skills-white {
+        background: #fff;
+    }
+
+    .back-end-icon-column {
+        /*padding-top: 4%;*/
+        /*padding-bottom: 4%;*/
+    }
+
+    .front-end-column {
+        /*padding-top: 2%;*/
+        /*padding-bottom: 20%;*/
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon {
+        display: block;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+
+    .python-icon , .django-icon, .postgres-icon, .flask-icon  {
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+
+    .python-icon , .django-icon, .postgres-icon {
+        height: 15vh;
+    }
+
+    .flask-icon {
+        height: 13vh;
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        display: block;
+    }
+
+    .css3-icon, .html5-icon, .bootstrap-icon {
+        height: 20.75vh;
+        padding-left: 20%;
+        padding-top: 10%;
+    }
+
+    .bootstrap-icon {
+        height: 19.5vh;
+        padding-left: 21.5%;
+        padding-top: 5%;    
+    }
+
+    /*Contact Section*/
+    .contactSection {
+        padding-bottom: 1.5%;
+        margin-top: -0.5%;
+    }
+
+    .contactSectionHeader { 
+        text-align: center; 
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;  
+        font-size: 4.5em;
+    }
+
+    .fa.fa-envelope.emailIcon {  
+        color: #000;
+        font-size: 4em;
+    }
+
+    a > span.email { 
+        color: #000;
+        font-size: 3.25em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+    }
+
+    #emailLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .socialInfo {
+        text-align: center;
+        display: inline-block;  
+    }
+
+    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon { 
+        color: #000;
+        font-size: 6.5em;
+    }
+
+    .fa.fa-linkedin.linkedinSocialIcon {
+        padding-left: 10%;
+    }
+
+    .socialLink:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+}
+
+/*    .homeSection:after {
+        background: url('../images/carol-logo.JPG')  no-repeat center center;
+        width: 100%; 
+        height: 100vh;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.6;
+    }
+*/
+
     /*Navbar*/
 /*    #nav {
         background: transparent;
@@ -1121,133 +2093,17 @@
         color: #000;
     }
 */
-    /*Home section*/
-    .homeSection {
-        width: 100%;
-        height: 100vh;
-        /*font-size: 2em;*/
-        /*text-align: center;*/
-        /*margin-top: 0.5%;*/
-    }
 
-    .nameColumn {
-        text-align: center;
-        height: 100vh;
-    }
-
-    .nameColumn h1 {
-        padding-top: 30%;
-        color: #000;
-        font-size: 6.75em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .homeColumn {
-        background: #000;
-        height: 100vh;
-        text-align: center;
-    }
-
-    .homeArticle {
-        padding-top: 35%;
-        color: #fff;
-        font-size: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .sectionLinksList li {
-        display: inline;
-        font-size: 2.25em;
-        font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        font-weight: 100;
-    }
-
-    .sectionLinksList li > a{
-        color: #fff;
-        border: 0.01em solid #fff;
-        padding: 0.65em;
-    }
-
-    #skill-link-in-home {
-        margin-right: 0.80em;
-        margin-left: 0.80em;
-    }
-
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
-    }
-
-
-    /*Projects section*/
-    .projectsSection {
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-    }
-
-    .projectSectionHeader {
-        font-size: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .project-name-header {
-        font-size: 2em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;  
-    }
-
-    .project-description {
-        font-size: 1.25em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
-    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
-        border-radius: 100%;
-    }
-
-    .github-project-image {
-        height: 18vh;
-        margin-left: 33%;
-        padding-top: 1%;
-    }
-
-    .the-C-blog-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-left: 6%;
-    }
-
-    .traffic-tracker-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-top: 5%;
-    }
-
-    .help-image  {
-        height: 18vh;
-        margin-left: 25%;
-        padding-left: 6%;
-        padding-top: 5%;
-    }
-
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
+/*    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
         background: rgba(0,0,0,0.5);
         color: #fff;
         cursor: pointer;
         display: table;
         position: absolute;
         opacity: 0;
+        font-size: 1.25em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
 
         -webkit-transition: opacity 500ms;
         -moz-transition: opacity 500ms;
@@ -1259,7 +2115,7 @@
         top: 33%;
         left: 36%;
         height: 50%;
-        width: 10%;
+        width: 10vw;
     }
 
     span.blog-languages-used, span.help-languages-used {
@@ -1273,7 +2129,7 @@
 
     span.rant-languages-used {
         top: 28%;
-        width: 30%;
+        width: 30vw;
         left: 33%;
     }
 
@@ -1285,418 +2141,4 @@
 
     .project-link:hover span.github-languages-used, .project-link:hover span.blog-languages-used, .project-link:hover span.help-languages-used, .project-link:hover span.traffic-languages-used, .project-link:hover span.rant-languages-used {
         opacity: 1;
-    }
-
-    i.fa.fa-github.githubIcon {
-        margin-left: -9%;
-        margin-top: 10%;
-        font-size: 4em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
-    }
-
-    /*Skills Section*/
-    .skillsSection {
-        width: 100%;
-        height: 100vh;
-        background-color: #000; 
-    }
-
-    .skillsHeader {
-        font-size: 4.5em;
-        color: #fff;
-/*        padding-top: 1.5%; 
-        padding-bottom: 3%;*/ 
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .back-end-skills-header, .front-end-skills-header {
-        font-size: 3.25em;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-    }
-
-    .skill-description {
-        font-size: 1.25em;
-        color: #fff; 
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .python-icon , .django-icon, .postgres-icon, .flask-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .python-icon , .django-icon, .postgres-icon {
-        height: 15vh;
-    }
-
-    .flask-icon {
-        height: 22vh;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 15vh;
-    }
-
-    /*Contact Section*/
-    .contactSection {
-        padding-bottom: 1.5%;
-    }
-
-    .contactSectionHeader { 
-        text-align: center; 
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;  
-    }
-
-    .fa.fa-envelope.emailIcon { 
-        font-size: 2.5em;
-    }
-
-    a > span.email {
-        color: #333;
-        font-size: 1.30em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    #emailLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-    .socialInfo {
-        text-align: center;
-        display: inline-block;  
-    }
-
-    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
-        font-size: 2.5em;
-    }
-
-    .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 15%;
-    }
-
-    .socialLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-}
-
-@media only screen and (min-device-width: 1442px) { 
-    /*Home section*/
-    .homeSection {
-        width: 100%;
-        height: 100vh;
-        /*font-size: 2em;*/
-        /*text-align: center;*/
-        /*margin-top: 0.5%;*/
-    }
-
-    .nameColumn {
-        text-align: center;
-        height: 100vh;
-    }
-
-    .nameColumn h1 {
-        padding-top: 30%;
-        color: #000;
-        font-size: 6.75em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .homeColumn {
-        background: #000;
-        height: 100vh;
-        text-align: center;
-    }
-
-    .homeArticle {
-        padding-top: 35%;
-        color: #fff;
-        font-size: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .sectionLinksList li {
-        display: inline;
-        font-size: 2.25em;
-        font-family: 'Montserrat', sans-serif;
-        font-style: italic;
-        font-weight: 100;
-    }
-
-    .sectionLinksList li > a{
-        color: #fff;
-        border: 0.01em solid #fff;
-        padding: 0.65em;
-    }
-
-    #skill-link-in-home {
-        margin-right: 0.80em;
-        margin-left: 0.80em;
-    }
-
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
-    }
-
-
-    /*Projects section*/
-    .projectsSection {
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-    }
-
-    .projectSectionHeader {
-        font-size: 3em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .project-name-header {
-        font-size: 2em;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;  
-    }
-
-    .project-description {
-        font-size: 1.25em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
-    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
-        border-radius: 100%;
-    }
-
-    .github-project-image {
-        height: 18vh;
-        margin-left: 33%;
-        padding-top: 1%;
-    }
-
-    .the-C-blog-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-left: 6%;
-    }
-
-    .traffic-tracker-image {
-        height: 18vh;
-        margin-left: 30%;
-        padding-top: 5%;
-    }
-
-    .help-image  {
-        height: 18vh;
-        margin-left: 25%;
-        padding-left: 6%;
-        padding-top: 5%;
-    }
-
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
-        background: rgba(0,0,0,0.5);
-        color: #fff;
-        cursor: pointer;
-        display: table;
-        position: absolute;
-        opacity: 0;
-
-        -webkit-transition: opacity 500ms;
-        -moz-transition: opacity 500ms;
-        -o-transition: opacity 500ms;
-        transition: opacity 500ms;
-    }
-
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used  {
-        top: 33%;
-        left: 36%;
-        height: 50%;
-        width: 10%;
-    }
-
-    span.blog-languages-used, span.help-languages-used {
-        top: 30%;   
-    }
-
-    span.traffic-languages-used {
-        top: 28%;
-        left: 38%;
-    }
-
-    span.rant-languages-used {
-        top: 28%;
-        width: 30%;
-        left: 33%;
-    }
-
-    span.github-languages-used span, span.blog-languages-used span, span.help-languages-used span, span.traffic-languages-used span, span.rant-languages-used span {
-        /*display: table-cell;*/
-        text-align: center;
-        /*vertical-align: middle;*/
-    }
-
-    .project-link:hover span.github-languages-used, .project-link:hover span.blog-languages-used, .project-link:hover span.help-languages-used, .project-link:hover span.traffic-languages-used, .project-link:hover span.rant-languages-used {
-        opacity: 1;
-    }
-
-    i.fa.fa-github.githubIcon {
-        margin-left: -9%;
-        margin-top: 10%;
-        font-size: 4em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
-    }
-
-    /*Skills Section*/
-    .skillsSection {
-        width: 100%;
-        height: 100vh;
-        background-color: #000; 
-    }
-
-    .skillsHeader {
-        font-size: 4.5em;
-        color: #fff;
-/*        padding-top: 1.5%; 
-        padding-bottom: 3%;*/ 
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-    }
-
-    .back-end-skills-header, .front-end-skills-header {
-        font-size: 3.25em;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600; 
-    }
-
-    .skill-description {
-        font-size: 1.25em;
-        color: #fff; 
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .python-icon , .django-icon, .postgres-icon, .flask-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .python-icon , .django-icon, .postgres-icon {
-        height: 15vh;
-    }
-
-    .flask-icon {
-        height: 22vh;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 15vh;
-    }
-
-    /*Contact Section*/
-    .contactSection {
-        padding-bottom: 1.5%;
-    }
-
-    .contactSectionHeader { 
-        text-align: center; 
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;  
-    }
-
-    .fa.fa-envelope.emailIcon { 
-        font-size: 2.5em;
-    }
-
-    a > span.email {
-        color: #333;
-        font-size: 1.30em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    #emailLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-
-    .socialInfo {
-        text-align: center;
-        display: inline-block;  
-    }
-
-    .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
-        font-size: 2.5em;
-    }
-
-    .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 15%;
-    }
-
-    .socialLink:hover {
-        color: #333;
-        text-decoration: none;
-    }
-}
-
-/*    .homeSection:after {
-        background: url('../images/carol-logo.JPG')  no-repeat center center;
-        width: 100%; 
-        height: 100vh;
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        content:'';
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        opacity: 0.6;
-    }
-*/
+    }*/
