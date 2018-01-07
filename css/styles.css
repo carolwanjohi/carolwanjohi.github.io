@@ -38,13 +38,25 @@
         font-size: 1em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
-        font-weight: 100;
+        font-weight: lighter;
     }
 
-    .sectionLinksList li > a{
+    .sectionLinksList li > a:link {
         color: #fff;
-        border: 0.01em solid #fff;
+        border-bottom: 0.01em solid #fff;
         padding: 0.35em;
+    }
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.35em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1000;
     }
 
     #skill-link-in-home {
@@ -52,12 +64,11 @@
         margin-left: 0.80em;
     }
 
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
+    /*Projects section*/
+    .other-devices {
+        display: none; 
     }
 
-    /*Projects section*/
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -68,6 +79,18 @@
         font-size: 2em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    .white-phone-project {
+        background: #fff;
+        color: #000
+    }
+
+    .black-phone-project {
+        background: #000;
+        color: #fff;
     }
 
     .project-name-header {
@@ -76,80 +99,38 @@
         font-weight: 600;  
     }
 
-    .project-description {
-        font-size: 1em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
     .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
         border-radius: 100%;
-        float: left;
-    }
-
-    .github-project-image {
-        height: 9vh;
-        padding-top: 1%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    .the-C-blog-image {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    .traffic-tracker-image {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    .help-image  {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
-        display: none;
-    }
-
-    i.fa.fa-github.githubIcon {
-        margin-top: -10%;
-        font-size: 4em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
+        height: 14vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
     }
 
     /*Skills Section*/
     .skillsSection {
         width: 100vw;
         height: 100vh;
-        background-color: #000; 
+        background-color: #fff; 
     }
 
     .skillsHeader {
         font-size: 3em;
-        color: #fff;
+        color: #000;
+        padding-top: 0.25%; 
+        padding-bottom: 0.25%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 9%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 16.75%;
     }
 
     .back-end-skills-header, .front-end-skills-header {
@@ -165,11 +146,11 @@
     }
 
     .back-end-skills-header, .skill-description {
-        color: #fff;
+        color: #000;
     }
 
     .front-end-skills-header, .front-end-skill-description {
-        color: #000;
+        color: #fff;
     }
 
     .skills-white {
@@ -177,35 +158,30 @@
     }
 
     .back-end-icon-column {
-        margin-bottom: -1%;
+        /*margin-bottom: -1%;*/
     }
 
     .front-end-column {
-        padding-top: 2%;
-        padding-bottom: 4%;
+        /*padding-top: 2%;
+        padding-bottom: 4%;*/
     }
 
     .back-end-column {
-        padding-bottom: 4%;
+        /*padding-bottom: 4%;*/
     }
 
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
         display: block;
-    }
-
-    .python-icon , .django-icon, .postgres-icon  {
-        height: 9vh;
         padding-left: 20%;
         padding-top: 5%;
     }
 
-    .flask-icon {
-        height: 17vh;
-        margin-top: -22%;
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 10vh;
     }
 
-    .postgres-icon {
-        margin-top: 5%;  
+    .flask-icon {
+        height: 8vh;
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
@@ -213,26 +189,21 @@
     }
 
     .css3-icon, .html5-icon {
-        height: 10vh;
+        height: 13vh;
         padding-left: 20%;
         padding-top: 8%;
     }
 
     .bootstrap-icon {
-        height: 16vh;
+        height: 12vh;
         padding-top: 12%;
-        padding-left: 5%;
-        padding-bottom: 25%; 
+        padding-left: 23%;
     }
 
     /*Contact Section*/
     .contactSection {
         padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
+        margin-top: -0.75%;
     }
 
     .contactSectionHeader { 
@@ -242,12 +213,17 @@
         font-size: 2em; 
     }
 
+    .contactInfo {
+        text-align: center; 
+    }
+
     .fa.fa-envelope.emailIcon { 
+        color: #000;
         font-size: 1.5em;
     }
 
     a > span.email {
-        color: #333;
+        color: #000;
         font-size: 1em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
@@ -264,11 +240,12 @@
     }
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        color: #000;
         font-size: 2em;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
+        padding-left: 10%;
     }
 
     .socialLink:hover {
@@ -318,13 +295,24 @@
         font-size: 1em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
-        font-weight: 100;
+        font-weight: lighter;
     }
 
-    .sectionLinksList li > a{
+    .sectionLinksList li > a:link{
         color: #fff;
-        border: 0.01em solid #fff;
+        border-bottom: 0.05em solid #fff;
         padding: 0.35em;
+    }
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        padding: 0.35em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1000;
     }
 
     #skill-link-in-home {
@@ -332,12 +320,11 @@
         margin-left: 0.80em;
     }
 
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
+    /*Projects section*/
+    .other-devices {
+        display: none; 
     }
 
-    /*Projects section*/
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -348,8 +335,18 @@
         font-size: 2em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .white-phone-project {
+        background: #fff;
+        color: #000
+    }
+
+    .black-phone-project {
+        background: #000;
+        color: #fff;
     }
 
     .project-name-header {
@@ -358,84 +355,38 @@
         font-weight: 600;  
     }
 
-    .project-description {
-        font-size: 1.05em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
     .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
         border-radius: 100%;
-        float: left;
-    }
-
-    .github-project-image {
-        height: 9vh;
-        padding-top: 1%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 1%;
-    }
-
-    .the-C-blog-image {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    .traffic-tracker-image {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 1%;
-    }
-
-    .help-image  {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 1%;
-    }
-
-    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
-        display: none;
-    }
-
-    i.fa.fa-github.githubIcon {
-        /*margin-left: -9%;*/
-        margin-top: -10%;
-        font-size: 4em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
+        height: 13vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
     }
 
     /*Skills Section*/
     .skillsSection {
         width: 100vw;
         height: 100vh;
-        background-color: #000; 
+        background-color: #fff; 
     }
 
     .skillsHeader {
         font-size: 3em;
-        color: #fff;
+        color: #000;
+        padding-top: 0.25%; 
+        padding-bottom: 0.25%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 8%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 10.5%;
     }
 
     .back-end-skills-header, .front-end-skills-header {
@@ -451,11 +402,11 @@
     }
 
     .back-end-skills-header, .skill-description {
-        color: #fff;
+        color: #000;
     }
 
     .front-end-skills-header, .front-end-skill-description {
-        color: #000;
+        color: #fff;
     }
 
     .skills-white {
@@ -463,35 +414,30 @@
     }
 
     .back-end-icon-column {
-        margin-bottom: -1%;
+        /*margin-bottom: -1%;*/
     }
 
     .front-end-column {
-        padding-top: 2%;
-        padding-bottom: 4%;
+        /*padding-top: 2%;
+        padding-bottom: 4%;*/
     }
 
     .back-end-column {
-        padding-bottom: 4%;
+        /*padding-bottom: 4%;*/
     }
 
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
         display: block;
-    }
-
-    .python-icon , .django-icon, .postgres-icon  {
-        height: 9vh;
         padding-left: 20%;
         padding-top: 5%;
     }
 
-    .flask-icon {
-        height: 17vh;
-        margin-top: -5%;
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 10vh;
     }
 
-    .postgres-icon {
-        margin-top: 15%;  
+    .flask-icon {
+        height: 9vh;
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
@@ -499,26 +445,22 @@
     }
 
     .css3-icon, .html5-icon {
-        height: 10vh;
+        height: 13vh;
         padding-left: 20%;
         padding-top: 8%;
     }
 
     .bootstrap-icon {
-        height: 16vh;
+        height: 12vh;
         padding-top: 12%;
-        padding-left: 5%;
-        padding-bottom: 25%; 
+        padding-left: 23%;
     }
 
     /*Contact Section*/
     .contactSection {
         padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
+        margin-top: 1%;
+        padding-top: 3%;
     }
 
     .contactSectionHeader { 
@@ -528,12 +470,18 @@
         font-size: 2em; 
     }
 
-    .fa.fa-envelope.emailIcon { 
+    .contactInfo {
+        text-align: center; 
+
+    }
+
+    .fa.fa-envelope.emailIcon {
+        color: #000; 
         font-size: 1.5em;
     }
 
     a > span.email {
-        color: #333;
+        color: #000;
         font-size: 1em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
@@ -550,11 +498,12 @@
     }
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        color: #000;
         font-size: 2em;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
+        padding-left: 13%;
     }
 
     .socialLink:hover {
@@ -604,13 +553,24 @@
         font-size: 1em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
-        font-weight: 100;
+        font-weight: lighter;
     }
 
-    .sectionLinksList li > a{
+    .sectionLinksList li > a:link{
         color: #fff;
-        border: 0.01em solid #fff;
+        border-bottom: 0.05em solid #fff;
         padding: 0.35em;
+    }
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        padding: 0.35em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1000;
     }
 
     #skill-link-in-home {
@@ -618,12 +578,11 @@
         margin-left: 0.80em;
     }
 
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
+    /*Projects section*/
+    .other-devices {
+        display: none; 
     }
 
-    /*Projects section*/
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -634,6 +593,18 @@
         font-size: 2.75em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+    .white-phone-project {
+        background: #fff;
+        color: #000
+    }
+
+    .black-phone-project {
+        background: #000;
+        color: #fff;
     }
 
     .project-name-header {
@@ -642,83 +613,38 @@
         font-weight: 600;  
     }
 
-    .project-description {
-        font-size: 1.15em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-    }
-
-    .black-project {
-        background: #000;
-        color: #fff;
-    }
-
     .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
         border-radius: 100%;
-        float: left;
-    }
-
-    .github-project-image {
-        height: 9vh;
-        padding-top: 1%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 1%;
-    }
-
-    .the-C-blog-image {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-
-    .traffic-tracker-image {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 1%;
-    }
-
-    .help-image  {
-        height: 9vh;
-        padding-top: 2.5%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 1%;
-    }
-
-    .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
-        display: none;
-    }
-
-    i.fa.fa-github.githubIcon {
-        margin-top: -10%;
-        font-size: 4em;
-    }
-
-    a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
+        height: 13vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
     }
 
     /*Skills Section*/
     .skillsSection {
         width: 100vw;
         height: 100vh;
-        background-color: #000; 
+        background-color: #fff; 
     }
 
     .skillsHeader {
         font-size: 3em;
-        color: #fff;
+        color: #000;
+        padding-top: 0.25%; 
+        padding-bottom: 0.25%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 9%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 16.75%;
     }
 
     .back-end-skills-header, .front-end-skills-header {
@@ -734,11 +660,11 @@
     }
 
     .back-end-skills-header, .skill-description {
-        color: #fff;
+        color: #000;
     }
 
     .front-end-skills-header, .front-end-skill-description {
-        color: #000;
+        color: #fff;
     }
 
     .skills-white {
@@ -746,35 +672,30 @@
     }
 
     .back-end-icon-column {
-        margin-bottom: -1%;
+        /*margin-bottom: -1%;*/
     }
 
     .front-end-column {
-        padding-top: 2%;
-        padding-bottom: 4%;
+        /*padding-top: 2%;*/
+        /*padding-bottom: 4%;*/
     }
 
     .back-end-column {
-        padding-bottom: 4%;
+        /*padding-bottom: 4%;*/
     }
 
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
         display: block;
-    }
-
-    .python-icon , .django-icon, .postgres-icon  {
-        height: 9vh;
         padding-left: 20%;
         padding-top: 5%;
     }
 
-    .flask-icon {
-        height: 19vh;
-        margin-top: -5%;
+    .python-icon , .django-icon, .postgres-icon  {
+        height: 10vh;
     }
 
-    .postgres-icon {
-        margin-top: 15%;  
+    .flask-icon {
+        height: 9vh;
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
@@ -782,26 +703,21 @@
     }
 
     .css3-icon, .html5-icon {
-        height: 10vh;
+        height: 13vh;
         padding-left: 20%;
         padding-top: 8%;
     }
 
     .bootstrap-icon {
-        height: 18vh;
+        height: 12vh;
         padding-top: 12%;
-        padding-left: 10%;
-        padding-bottom: 25%; 
+        padding-left: 23%;
     }
 
     /*Contact Section*/
     .contactSection {
         padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
+        margin-top: -0.75%;
     }
 
     .contactSectionHeader { 
@@ -811,12 +727,17 @@
         font-size: 2em; 
     }
 
+    .contactInfo {
+        text-align: center;
+    }
+
     .fa.fa-envelope.emailIcon { 
+        color: #000;
         font-size: 1.5em;
     }
 
     a > span.email {
-        color: #333;
+        color: #000;
         font-size: 1em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
@@ -833,11 +754,12 @@
     }
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        color: #000;
         font-size: 2em;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
+        padding-left: 10%;
     }
 
     .socialLink:hover {
@@ -887,13 +809,23 @@
         font-size: 1.45em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
-        font-weight: 100;
+        font-weight: lighter;
     }
 
-    .sectionLinksList li > a{
+    .sectionLinksList li > a:link {
         color: #fff;
-        border: 0.01em solid #fff;
+        border-bottom: 0.05em solid #fff;
         padding: 0.35em;
+    }
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        padding: 0.65em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
     }
 
     #skill-link-in-home {
@@ -901,12 +833,11 @@
         margin-left: 2em;
     }
 
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
+    /*Projects section*/ 
+    .phone-projects {
+        display: none;
     }
 
-    /*Projects section*/
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -917,7 +848,10 @@
         font-size: 3em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        padding-bottom: 2%;
+    }
+
+    .black-project {
+        background: #000;
     }
 
     .project-name-header {
@@ -926,84 +860,110 @@
         font-weight: 600;  
     }
 
+    .white-project-header {
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
+        border-radius: 100%;
+        height: 34vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.5%;
+    }
+
     .project-description {
         font-size: 1.25em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
 
-    .black-project {
-        background: #000;
-        color: #fff;
-        padding-bottom: 3.95%;
+    .githubScreenshot, .blogScreenshot, .trafficScreenshot, .helpScreenshot {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.05em solid #000;
     }
 
-    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
-        border-radius: 100%;
-    }
-
-    .github-project-image {
-        height: 18vh;
-        padding-top: 2%;
-        padding-left: 30%;
-        padding-right: 30%;
-        /*padding-bottom: 1%;*/
-    }
-
-    .the-C-blog-image {
-        height: 18vh;
-        padding-top: 2%;
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-
-    .traffic-tracker-image {
-        height: 16vh;
-        padding-top: 1%;
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-
-    .help-image  {
-        height: 18vh;
-        padding-top: 6%;
-        padding-left: 30%;
-        padding-right: 30%;
-        margin-bottom: 2%;
+    .trafficScreenshot {
+        padding-bottom: 0.05%;
     }
 
     .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
-        display: none;
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        top: 5%;
     }
 
+    .viewSiteButton {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+        width: 7.95vw;
+        height: 3.5vh;
+        font-size: 0.67em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-right: 20%;
+        display: inline-block;
+    }
+
+    .viewSiteButton:link {
+        width: 7.95vw;
+        height: 3.5vh;
+        font-size: 0.67em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:visited {
+        width: 7.95vw;
+        height: 3.5vh;
+        font-size: 0.67em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:hover {
+        width: 7.95vw;
+        height: 3.5vh;
+        font-size: 0.67em;
+        text-decoration: none;
+    }    
+
     i.fa.fa-github.githubIcon {
-        margin-top: -10%;
-        font-size: 4em;
+        color: #000;
+        font-size: 2.75em;
+        vertical-align: middle;
     }
 
     a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
+        font-weight: 1000;
+        text-decoration: none;
     }
 
     /*Skills Section*/
     .skillsSection {
         width: 100vw;
         height: 100vh;
-        background-color: #000; 
+        background-color: #fff; 
     }
 
     .skillsHeader {
         font-size: 3.75em;
-        color: #fff;
+        color: #000;
         padding-top: 0.5%; 
         padding-bottom: 0.5%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 8.5%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 12.75%;
     }
 
     .back-end-skills-header, .front-end-skills-header {
@@ -1019,11 +979,11 @@
     }
 
     .back-end-skills-header, .skill-description {
-        color: #fff;
+        color: #000;
     }
 
     .front-end-skills-header, .front-end-skill-description {
-        color: #000;
+        color: #fff;
     }
 
     .skills-white {
@@ -1031,32 +991,30 @@
     }
 
     .back-end-icon-column {
-        padding-top: 6%;
-        padding-bottom: 4%;
+        /*padding-top: 6%;
+        padding-bottom: 4%;*/
     }
 
     .front-end-column {
         /*padding-top: 1%;*/
-        padding-bottom: 25.65%;
+        /*padding-bottom: 25.65%;*/
     }
 
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
         display: block;
+        padding-left: 20%;
+        padding-top: 2%;
+        margin-top: 15%;
     }
 
     .python-icon , .django-icon, .postgres-icon  {
-        height: 12vh;
-        padding-left: 20%;
-        padding-top: 2%;
+        height: 13vh;
     }
 
     .flask-icon {
-        height: 24vh;
-        margin-top: -15%;
-    }
-
-    .postgres-icon {
-        margin-top: 15%;  
+        padding-left: 0%;
+        padding-top: 0%;
+        height: 11vh;
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
@@ -1064,25 +1022,21 @@
     }
 
     .css3-icon, .html5-icon {
-        height: 17vh;
+        height: 18vh;
         padding-left: 20%;
         padding-top: 22%;
     }
 
     .bootstrap-icon {
-        height: 18vh;
-        padding-left: 7%;
+        height: 16vh;
+        padding-left: 23%;
         padding-top: 15%;
     }
 
     /*Contact Section*/
     .contactSection {
         padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
+        margin-top: -0.75%;
     }
 
     .contactSectionHeader { 
@@ -1093,11 +1047,12 @@
     }
 
     .fa.fa-envelope.emailIcon { 
+        color: #000;
         font-size: 1.5em;
     }
 
     a > span.email {
-        color: #333;
+        color: #000;
         font-size: 0.87em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
@@ -1114,11 +1069,12 @@
     }
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        color: #000;
         font-size: 2em;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
+        padding-left: 30%;
     }
 
     .socialLink:hover {
@@ -1168,13 +1124,24 @@
         font-size: 1.75em;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
-        font-weight: 100;
+        font-weight: lighter;
     }
 
-    .sectionLinksList li > a{
+    .sectionLinksList li > a:link{
         color: #fff;
-        border: 0.01em solid #fff;
+        border-bottom: 0.05em solid #fff;
         padding: 0.35em;
+    }
+
+    .sectionLinksList li > a:visited {
+        color: #fff;
+        padding: 0.35em;
+    } 
+
+    .sectionLinksList li > a:hover{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1000;
     }
 
     #skill-link-in-home {
@@ -1182,12 +1149,11 @@
         margin-left: 2em;
     }
 
-    .sectionLinksList li > a:hover{
-        color: #337ab7;
-        text-decoration: none;
+    /*Projects section*/
+    .phone-projects {
+        display: none;
     }
 
-    /*Projects section*/
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -1198,7 +1164,10 @@
         font-size: 3em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        /*padding-bottom: 2%;*/
+    }
+
+    .black-project {
+        background: #000;
     }
 
     .project-name-header {
@@ -1207,50 +1176,32 @@
         font-weight: 600;  
     }
 
+    .white-project-header {
+        color: #fff;
+    }
+
+    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
+        border-radius: 100%;
+        height: 34vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0.5%;
+    }
+
     .project-description {
         font-size: 1.25em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
 
-    .black-project {
-        background: #000;
-        color: #fff;
-        padding-bottom: 1.25%;
+    .githubScreenshot, .blogScreenshot, .trafficScreenshot, .helpScreenshot {
+        margin-left: auto;
+        margin-right: auto;
+        border: 0.05em solid #000;
     }
 
-    .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
-        border-radius: 100%;
-    }
-
-    .github-project-image {
-        height: 18vh;
-        padding-top: 2%;
-        padding-left: 30%;
-        padding-right: 30%;
-        /*padding-bottom: 1%;*/
-    }
-
-    .the-C-blog-image {
-        height: 18vh;
-        padding-top: 2%;
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-
-    .traffic-tracker-image {
-        height: 17vh;
-        padding-top: 1%;
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-
-    .help-image  {
-        height: 16vh;
-        padding-top: 6%;
-        padding-left: 33%;
-        padding-right: 33%;
-        margin-bottom: 2%;
+    .trafficScreenshot {
+        padding-bottom: 0.05%;
     }
 
     .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
@@ -1260,35 +1211,75 @@
         top: 5%;
     }
 
+    .viewSiteButton {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+        width: 8vw;
+        height: 5vh;
+        font-size: 1.15em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-right: 20%;
+        display: inline-block;
+    }
+
+    .viewSiteButton:link {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:visited {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    } 
+
+    .viewSiteButton:hover {
+        width: 9vw;
+        height: 6vh;
+        font-size: 1.25em;
+        text-decoration: none;
+    }
+
     i.fa.fa-github.githubIcon {
-        padding-top: 2%;
+        color: #000;
         font-size: 4em;
-        margin-left: -15%;
+        vertical-align: middle;    
     }
 
     a > i.fa.fa-github.githubIcon:hover {
-        color: #333;
-    }
-
-    a > i.fa.fa-github.githubIcon.black:hover {
-        color: #fff;
+        font-weight: 1000;
+        text-decoration: none;
     }
 
     /*Skills Section*/
     .skillsSection {
         width: 100vw;
         height: 100vh;
-        background-color: #000; 
+        background-color: #fff; 
     }
 
     .skillsHeader {
         font-size: 3.90em;
-        color: #fff;
-        padding-top: 0.15%; 
+        color: #000;
+        padding-top: 0.18%; 
         padding-bottom: 0.15%; 
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
+    }
+
+    .back-end-row {
+        padding-bottom: 3.75%;
+    }
+
+    .front-end-row {
+        background-color: #000;
+        padding-bottom: 7.75%;
     }
 
     .back-end-skills-header, .front-end-skills-header {
@@ -1304,11 +1295,11 @@
     }
 
     .back-end-skills-header, .skill-description {
-        color: #fff;
+        color: #000;
     }
 
     .front-end-skills-header, .front-end-skill-description {
-        color: #000;
+        color: #fff;
     }
 
     .skills-white {
@@ -1316,32 +1307,28 @@
     }
 
     .back-end-icon-column {
-        padding-top: 3%;
-        padding-bottom: 4%;
+        /*padding-top: 3%;
+        padding-bottom: 4%;*/
     }
 
     .front-end-column {
         /*padding-top: 1%;*/
-        padding-bottom: 21.75%;
+        /*padding-bottom: 21.75%;*/
     }
 
     .python-icon , .django-icon, .postgres-icon, .flask-icon {
         display: block;
+        padding-left: 20%;
+        padding-top: 2%;
+        margin-top: 5%;
     }
 
     .python-icon , .django-icon, .postgres-icon  {
-        height: 12vh;
-        padding-left: 20%;
-        padding-top: 2%;
+        height: 15vh;
     }
 
     .flask-icon {
-        height: 24vh;
-        margin-top: -15%;
-    }
-
-    .postgres-icon {
-        margin-top: 5%;  
+        height: 13vh;
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
@@ -1349,25 +1336,21 @@
     }
 
     .css3-icon, .html5-icon {
-        height: 17vh;
+        height: 22vh;
         padding-left: 20%;
         padding-top: 22%;
     }
 
     .bootstrap-icon {
         height: 18vh;
-        padding-left: 7%;
-        padding-top: 15%;
+        padding-left: 22%;
+        padding-top: 10%;
     }
 
     /*Contact Section*/
     .contactSection {
         padding-bottom: 1.5%;
-    }
-
-    .contactInfo {
-        text-align: center; 
-
+        margin-top: -0.75%;
     }
 
     .contactSectionHeader { 
@@ -1377,12 +1360,18 @@
         font-size: 2em; 
     }
 
-    .fa.fa-envelope.emailIcon { 
+    .contactInfo {
+        text-align: center; 
+
+    }
+
+    .fa.fa-envelope.emailIcon {  
+        color: #000;
         font-size: 1.75em;
     }
 
     a > span.email {
-        color: #333;
+        color: #000;
         font-size: 1.15em;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
@@ -1399,11 +1388,12 @@
     }
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+        color: #000;
         font-size: 2.25em;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
-        margin-left: 5%;
+        padding-left: 15%;
     }
 
     .socialLink:hover {
@@ -1479,6 +1469,10 @@
     }
 
     /*Projects section*/
+    .phone-projects {
+        display: none;
+    }
+
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -1788,6 +1782,10 @@
     }
 
     /*Projects section*/
+    .phone-projects {
+        display: none;
+    }
+
     .projectsSection {
         width: 100vw;
         height: 100vh;
@@ -2045,100 +2043,4 @@
 
 }
 
-/*    .homeSection:after {
-        background: url('../images/carol-logo.JPG')  no-repeat center center;
-        width: 100%; 
-        height: 100vh;
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        content:'';
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        opacity: 0.6;
-    }
-*/
 
-    /*Navbar*/
-/*    #nav {
-        background: transparent;
-        border-color: transparent;
-        margin-bottom: 0%;
-    }
-
-    #navIcon{
-        border-radius: 100%;
-        height: 8vh;
-        margin-top: -26%;
-        margin-left: 405%;
-    }
-
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-    }
-    
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-
-    ul.nav.navbar-nav > li > a {
-        color: #000;
-        font-size: 1.25em;
-    }
-
-    ul.nav.navbar-nav > li > a:hover {
-        color: #000;
-    }
-*/
-
-/*    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used {
-        background: rgba(0,0,0,0.5);
-        color: #fff;
-        cursor: pointer;
-        display: table;
-        position: absolute;
-        opacity: 0;
-        font-size: 1.25em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
-
-        -webkit-transition: opacity 500ms;
-        -moz-transition: opacity 500ms;
-        -o-transition: opacity 500ms;
-        transition: opacity 500ms;
-    }
-
-    span.github-languages-used, span.blog-languages-used, span.help-languages-used, span.traffic-languages-used, span.rant-languages-used  {
-        top: 33%;
-        left: 36%;
-        height: 50%;
-        width: 10vw;
-    }
-
-    span.blog-languages-used, span.help-languages-used {
-        top: 30%;   
-    }
-
-    span.traffic-languages-used {
-        top: 28%;
-        left: 38%;
-    }
-
-    span.rant-languages-used {
-        top: 28%;
-        width: 30vw;
-        left: 33%;
-    }
-
-    span.github-languages-used span, span.blog-languages-used span, span.help-languages-used span, span.traffic-languages-used span, span.rant-languages-used span {
-        /*display: table-cell;*/
-        text-align: center;
-        /*vertical-align: middle;*/
-    }
-
-    .project-link:hover span.github-languages-used, .project-link:hover span.blog-languages-used, .project-link:hover span.help-languages-used, .project-link:hover span.traffic-languages-used, .project-link:hover span.rant-languages-used {
-        opacity: 1;
-    }*/
