@@ -9,11 +9,10 @@
 [Personal Portfolio](https://carolwanjohi.github.io/) is my online portfolio. It displays some of the projects that I have created. Some of the projects are team projects.
 
 ## Setup/Installation Requirements
-* Click [Personal Portfolio](https://carolwanjohi.github.io/) <br/>
-  or <br/>
-* Copy [Personal Portfolio](https://carolwanjohi.github.io/) and  Paste the link at your prefered browerser
-
-This requires internet connection
+1. Copy repository URL
+2. On the terminal write `git clone <URL>`
+3. On the terminal write `cd carolwanjohi.github.io`
+4. To run click the `index.html` file
 
 ## Known Bugs
 
