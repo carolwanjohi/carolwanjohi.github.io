@@ -15,7 +15,7 @@
     .nameColumn h1 {
         padding-top: 30%;
         color: #000;
-        font-size: 6.75em;
+        font-size: 500%;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
@@ -29,14 +29,14 @@
     .homeArticle {
         padding-top: 35%;
         color: #fff;
-        font-size: 3em;
+        font-size: 275%;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
 
     .sectionLinksList li {
         display: inline;
-        font-size: 2em;
+        font-size: 200%;
         font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: lighter;
@@ -76,13 +76,13 @@
     }
 
     .projectSectionHeader {
-        font-size: 3em;
+        font-size: 375%;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
     }
 
     .projectsRow1 {
-        padding-top: 2%;
+        padding-top: 0.75%;
     }
 
     .other-devices {
@@ -94,7 +94,7 @@
     }
 
     .project-name-header {
-        font-size: 2em;
+        font-size: 170%;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;  
     }
@@ -108,11 +108,12 @@
         height: 24vh;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 0.5%;
+        margin-top: 4.25%;
+        margin-bottom: 0;
     }
 
     .project-description {
-        font-size: 1.25em;
+        font-size: 140%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
@@ -123,8 +124,12 @@
         border: 0.05em solid #000;
     }
 
+    .trafficScreenshot {
+        padding-bottom: 0.05%;
+    }
+
     .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
-        font-size: 1em;
+        font-size: 110%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
         top: 5%;
@@ -136,7 +141,7 @@
         color: #fff;
         width: 8vw;
         height: 5vh;
-        font-size: 1.15em;
+        font-size: 110%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
         margin-right: 20%;
@@ -144,29 +149,23 @@
     }
 
     .viewSiteButton:link {
-        width: 9vw;
-        height: 6vh;
-        font-size: 1.25em;
+        font-size: 110%;
         text-decoration: none;
     } 
 
     .viewSiteButton:visited {
-        width: 9vw;
-        height: 6vh;
-        font-size: 1.25em;
+        font-size: 110%;
         text-decoration: none;
     } 
 
     .viewSiteButton:hover {
-        width: 9vw;
-        height: 6vh;
-        font-size: 1.25em;
+        font-size: 110%;
         text-decoration: none;
     }
 
     i.fa.fa-github.githubIcon {
         color: #000;
-        font-size: 4em;
+        font-size: 350%;
         vertical-align: middle;
     }
 
@@ -183,7 +182,7 @@
     }
 
     .skillsHeader {
-        font-size: 4.5em;
+        font-size: 375%;
         color: #000;
         padding-top: 0.25%; 
         padding-bottom: 0.25%; 
@@ -193,22 +192,22 @@
     }
 
     .back-end-row {
-        padding-bottom: 4.5%;
+        padding-bottom: 8.5%;
     }
 
     .front-end-row {
         background-color: #000;
-        padding-bottom: 5.75%;
+        padding-bottom: 8.75%;
     }
 
     .back-end-skills-header, .front-end-skills-header {
-        font-size: 3.5em;
+        font-size: 170%;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600; 
     }
 
     .skill-description, .front-end-skill-description {
-        font-size: 1.5em;
+        font-size: 140%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
@@ -247,11 +246,11 @@
     }
 
     .python-icon , .django-icon, .postgres-icon {
-        height: 15vh;
+        height: 12vh;
     }
 
     .flask-icon {
-        height: 13vh;
+        height: 11vh;
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
@@ -259,13 +258,13 @@
     }
 
     .css3-icon, .html5-icon, .bootstrap-icon {
-        height: 21vh;
+        height: 16vh;
         padding-left: 20%;
         padding-top: 11%;
     }
 
     .bootstrap-icon {
-        height: 19vh;
+        height: 14vh;
         padding-left: 23%;
         padding-top: 9%;    
     }
@@ -290,12 +289,12 @@
 
     .fa.fa-envelope.emailIcon { 
         color: #000;
-        font-size: 2.5em;
+        font-size: 200%;
     }
 
     a > span.email {
         color: #000;
-        font-size: 1.30em;
+        font-size: 175%;
         font-family: 'Open Sans', sans-serif;
         font-weight: 500;
     }
@@ -312,7 +311,7 @@
 
     .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
         color: #000;
-        font-size: 2.5em;
+        font-size: 275%;
     }
 
     .fa.fa-linkedin.linkedinSocialIcon {
