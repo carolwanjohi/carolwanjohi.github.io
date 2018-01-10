@@ -7,6 +7,10 @@
     max-width: 100%;
 }
 
+.phoneHomeColumn {
+    display: none;
+}
+
 .homeSection {
     width: 100vw;
     height: 100vh;
@@ -15,6 +19,7 @@
 .nameColumn {
     text-align: center;
     height: 100vh;
+    width: 50vw;
 }
 
 .nameColumn h1 {
@@ -28,6 +33,7 @@
 .homeColumn {
     background: #000;
     height: 100vh;
+    width: 50vw;
     text-align: center;
 }
 
@@ -274,8 +280,7 @@ a > i.fa.fa-github.githubIcon:hover {
 }
 
 .contactSection {
-    padding-bottom: 1.5%;
-    margin-top: -0.5%;
+    height: 8vh;
 }
 
 .contactSectionHeader { 
@@ -283,6 +288,7 @@ a > i.fa.fa-github.githubIcon:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;  
     color: #000;
+    margin-top: -3%;
 }
 
 .fa.fa-envelope.emailIcon { 

@@ -1,16 +1,11 @@
  /*Home section*/
-.homeSection {
-    width: 100vw;
-    height: 100vh;
-}
-
 .nameColumn {
     text-align: center;
     height: 50vh;
 }
 
 .nameColumn h1 {
-    padding-top: 20%;
+    padding-top: 15%;
     color: #000;
     font-size: 375%;
     font-family: 'Montserrat', sans-serif;
@@ -18,17 +13,21 @@
 }
 
 .homeColumn {
+    display: none;
+}
+
+.phoneHomeColumn {
+    padding-top: 23%;
+    display: block;
     background: #000;
     height: 50vh;
     text-align: center;
-}
+} 
 
-.homeArticle {
-    padding-top: 20%;
-    color: #fff;
-    font-size: 250%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+.homeSection {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
 }
 
 .sectionLinksList li {
@@ -114,7 +113,8 @@
     height: 13vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
+    margin-bottom: 1.75%;
+    margin-top: -0.25%;
 }
 
 /*Skills Section*/
@@ -199,8 +199,8 @@
 
 /*Contact Section*/
 .contactSection {
-    padding-bottom: 1.5%;
-    margin-top: -2%;
+    height: 20vh;
+    margin-top: 7%;
 }
 
 .contactSectionHeader { 
@@ -217,12 +217,12 @@
 
 .fa.fa-envelope.emailIcon { 
     color: #000;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 a > span.email {
     color: #000;
-    font-size: 100%;
+    font-size: 115%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
 }
@@ -239,7 +239,7 @@ a > span.email {
 
 .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
     color: #000;
-    font-size: 200%;
+    font-size: 220%;
 }
 
 .fa.fa-linkedin.linkedinSocialIcon {
