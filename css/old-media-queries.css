@@ -1,3 +1,259 @@
+ /*Home section*/
+.homeSection {
+    width: 100vw;
+    height: 100vh;
+}
+
+.nameColumn {
+    text-align: center;
+    height: 50vh;
+}
+
+.nameColumn h1 {
+    padding-top: 20%;
+    color: #000;
+    font-size: 375%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.homeColumn {
+    background: #000;
+    height: 50vh;
+    text-align: center;
+}
+
+.homeArticle {
+    padding-top: 20%;
+    color: #fff;
+    font-size: 250%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.sectionLinksList li {
+    display: inline;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.sectionLinksList li > a:link{
+    color: #fff;
+    border-bottom: 0.05em solid #fff;
+    padding: 2%;
+}
+
+.sectionLinksList li > a:visited {
+    color: #fff;
+    padding: 2%;
+} 
+
+.sectionLinksList li > a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+#skill-link-in-home {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/*Projects section*/
+.phone-projects {
+    display: block;
+}
+
+.other-devices {
+    display: none; 
+}
+
+.projectsSection {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.projectSectionHeader {
+    font-size: 225%;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.white-phone-project {
+    background: #fff;
+    color: #000
+}
+
+.black-phone-project {
+    background: #000;
+    color: #fff;
+}
+
+.project-name-header {
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;  
+}
+
+.white-project-header-phone {
+    color: #000;
+}
+
+.black-project-header-phone {
+    color: #fff;
+}
+
+.github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
+    border-radius: 100%;
+    height: 13vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
+/*Skills Section*/
+.skillsSection {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff; 
+}
+
+.skillsHeader {
+    font-size: 225%;
+    color: #000;
+    padding-top: 0.25%; 
+    padding-bottom: 0.25%; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.back-end-row {
+    padding-bottom: 9%;
+}
+
+.front-end-row {
+    background-color: #000;
+    padding-bottom: 16.75%;
+}
+
+.back-end-skills-header, .front-end-skills-header {
+    font-size: 175%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+}
+
+.skill-description, .front-end-skill-description  {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.back-end-skills-header, .skill-description {
+    color: #000;
+}
+
+.front-end-skills-header, .front-end-skill-description {
+    color: #fff;
+}
+
+.skills-white {
+    background: #fff;
+}
+
+.python-icon , .django-icon, .postgres-icon, .flask-icon {
+    display: block;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.python-icon , .django-icon, .postgres-icon  {
+    height: 10vh;
+}
+
+.flask-icon {
+    height: 9vh;
+}
+
+.css3-icon, .html5-icon, .bootstrap-icon {
+    display: block;
+}
+
+.css3-icon, .html5-icon {
+    height: 11.5vh;
+    padding-left: 20%;
+    padding-top: 8%;
+}
+
+.bootstrap-icon {
+    height: 11vh;
+    padding-top: 12%;
+    padding-left: 23%;
+}
+
+/*Contact Section*/
+.contactSection {
+    padding-bottom: 1.5%;
+    margin-top: -2%;
+}
+
+.contactSectionHeader { 
+    color: #000;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+    font-size: 225%; 
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+.fa.fa-envelope.emailIcon { 
+    color: #000;
+    font-size: 125%;
+}
+
+a > span.email {
+    color: #000;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+#emailLink:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.socialInfo {
+    text-align: center;
+    display: inline-block;  
+}
+
+.fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
+    color: #000;
+    font-size: 200%;
+}
+
+.fa.fa-linkedin.linkedinSocialIcon {
+    padding-left: 10%;
+}
+
+.socialLink:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
 /*Small screen phone*/
 @media screen and (max-device-width: 320px)  { 
 
