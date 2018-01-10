@@ -224,8 +224,9 @@ a > i.fa.fa-github.githubIcon:hover {
 }
 
 .back-end-column, .front-end-column {
-    padding-left: 0.01%;
-    padding-right: 0;  
+    padding-left: 0;
+    padding-right: 0; 
+    width: 50vw; 
 }
 
 /*.back-end-column, .front-end-column {
