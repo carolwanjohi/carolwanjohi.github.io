@@ -22,6 +22,8 @@
     background: #000;
     height: 50vh;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 } 
 
 .homeSection {
@@ -63,6 +65,8 @@
 /*Projects section*/
 .phone-projects {
     display: block;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .other-devices {
@@ -86,12 +90,16 @@
 
 .white-phone-project {
     background: #fff;
-    color: #000
+    color: #000;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .black-phone-project {
     background: #000;
     color: #fff;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .project-name-header {

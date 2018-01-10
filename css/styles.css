@@ -1,10 +1,12 @@
 /*Medium laptop*/
 
 /*Home section*/
-.row {
+.row, .projectsRow1, .projectsRow, .back-end-row, .front-end-row {
     margin:0;
     width: 100vw;
     max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .phoneHomeColumn {
@@ -20,6 +22,8 @@
     text-align: center;
     height: 100vh;
     width: 50vw;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .nameColumn h1 {
@@ -34,6 +38,8 @@
     background: #000;
     height: 100vh;
     width: 50vw;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
 }
 
@@ -100,6 +106,8 @@
 
 .other-devices {
     padding-bottom: 4%;
+    padding-right: 0%;
+    padding-left: 0%;
 }
 
 .black-project {
@@ -206,6 +214,8 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .back-end-row {
     padding-bottom: 8.5%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .front-end-row {
@@ -214,19 +224,27 @@ a > i.fa.fa-github.githubIcon:hover {
 }
 
 .back-end-column, .front-end-column {
-    padding-left: 3%;
+    padding-left: 0.01%;
+    padding-right: 0;  
 }
+
+/*.back-end-column, .front-end-column {
+    padding-left: 0;
+    padding-right: 0;
+}*/
 
 .back-end-skills-header, .front-end-skills-header {
     font-size: 170%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600; 
+    text-align: left;
 }
 
 .skill-description, .front-end-skill-description {
     font-size: 140%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
+    text-align: left;
 }
 
 .back-end-skills-header, .skill-description {
@@ -239,6 +257,13 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .skills-white {
     background: #fff;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.skill-icons {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .python-icon , .django-icon, .postgres-icon, .flask-icon {
@@ -277,6 +302,8 @@ a > i.fa.fa-github.githubIcon:hover {
 /*Contact Section*/
 .contactInfo {
     text-align: center; 
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .contactSection {
@@ -311,6 +338,8 @@ a > span.email {
 .socialInfo {
     text-align: center;
     display: inline-block;  
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon {
