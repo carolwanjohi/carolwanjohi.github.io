@@ -80,6 +80,8 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
+    border-bottom: 0;
+    border-top: 0;
 }
 
 .projectSectionHeader {
@@ -187,6 +189,8 @@
     display: block;
     padding-left: 20%;
     padding-top: 5%;
+    -webkit-animation: none;
+    animation: none;
 }
 
 .python-icon , .django-icon, .postgres-icon  {
@@ -199,6 +203,10 @@
 
 .css3-icon, .html5-icon, .bootstrap-icon {
     display: block;
+    -webkit-animation-name: slide-front-end;
+    -webkit-animation-duration: 0;
+    -webkit-animation: none;
+    animation: none;
 }
 
 .css3-icon, .html5-icon {

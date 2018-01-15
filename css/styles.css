@@ -1,6 +1,12 @@
 /*Medium laptop*/
 
 /*Home section*/
+
+hr {
+    background: #000;
+    font-size: 2%;
+    display: none;
+}
 .row, .projectsRow1, .projectsRow, .back-end-row, .front-end-row {
     margin:0;
     width: 100vw;
@@ -90,6 +96,8 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
+    border-bottom: 0.05em solid #000;
+    border-top: 0.05em solid #000;
 }
 
 .projectSectionHeader {
@@ -131,6 +139,7 @@
     margin-right: auto;
     margin-top: 4.25%;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .project-description {
@@ -200,6 +209,7 @@ a > i.fa.fa-github.githubIcon:hover {
     width: 100vw;
     height: 100vh;
     background-color: #fff; 
+    /*border-bottom: 0.05em solid #000;*/
 }
 
 .skillsHeader {
@@ -213,7 +223,7 @@ a > i.fa.fa-github.githubIcon:hover {
 }
 
 .back-end-row {
-    padding-bottom: 8.5%;
+    padding-bottom: 9.5%;
     padding-left: 0;
     padding-right: 0;
 }
@@ -238,14 +248,17 @@ a > i.fa.fa-github.githubIcon:hover {
     font-size: 170%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600; 
-    text-align: left;
+    margin-left: 2.5%;
+}
+
+.back-end-column > p, .front-end-column > p {
+    margin-left: 2.5%;
 }
 
 .skill-description, .front-end-skill-description {
     font-size: 140%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    text-align: left;
 }
 
 .back-end-skills-header, .skill-description {
@@ -271,6 +284,52 @@ a > i.fa.fa-github.githubIcon:hover {
     display: block;
 }
 
+.python-icon , .django-icon {
+    -webkit-animation-name: slide-back-end-top;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;  
+}
+
+@-webkit-keyframes slide-back-end-top {
+   0% { -webkit-transform: translateX(50%); }  
+   100% { -webkit-transform: translateX(-50%); } 
+}
+
+
+.flask-icon {
+    -webkit-animation-name: slide-back-end-flask;
+    -webkit-animation-duration: 1.03s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;  
+}
+
+@-webkit-keyframes slide-back-end-flask {
+   0% { -webkit-transform: translateX(50%); }  
+   100% { -webkit-transform: translateX(-50%); } 
+}
+
+.postgres-icon {
+    -webkit-animation-name: slide-back-end-bottom;
+    -webkit-animation-duration: 1.03s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;  
+}
+
+@-webkit-keyframes slide-back-end-bottom {
+   0% { -webkit-transform: translateX(50%); }  
+   100% { -webkit-transform: translateX(-50%); } 
+}
+
+.python-icon:hover , .django-icon:hover, .postgres-icon:hover , .flask-icon:hover {
+    -webkit-animation: none;
+    animation: none;
+    cursor: pointer;
+}
+
 .python-icon , .django-icon, .postgres-icon, .flask-icon  {
     padding-left: 20%;
     padding-top: 5%;
@@ -286,6 +345,38 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .css3-icon, .html5-icon, .bootstrap-icon {
     display: block;
+}
+
+.css3-icon, .html5-icon {
+    -webkit-animation-name: slide-front-end-top;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes slide-front-end-top {
+   0% { -webkit-transform: translateX(-50%); }  
+   100% { -webkit-transform: translateX(50%); }   
+}
+
+.bootstrap-icon {
+    -webkit-animation-name: slide-front-end-bottom;
+    -webkit-animation-duration: 1.03s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes slide-front-end-bottom {
+   0% { -webkit-transform: translateX(-50%); }  
+   100% { -webkit-transform: translateX(50%); }   
+}
+
+.css3-icon:hover , .html5-icon:hover, .bootstrap-icon:hover  {
+    -webkit-animation: none;
+    animation: none;
+    cursor: pointer;
 }
 
 .css3-icon, .html5-icon, .bootstrap-icon {
@@ -316,7 +407,7 @@ a > i.fa.fa-github.githubIcon:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;  
     color: #000;
-    margin-top: -3%;
+    /*margin-top: -3%;*/
 }
 
 .fa.fa-envelope.emailIcon { 
