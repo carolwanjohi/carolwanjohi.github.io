@@ -330,11 +330,11 @@ a > i.fa.fa-github.githubIcon:hover {
    100% { -webkit-transform: translateX(50%); } 
 }
 
-.python-icon:hover , .django-icon:hover, .postgres-icon:hover , .flask-icon:hover {
+/*.python-icon:hover , .django-icon:hover, .postgres-icon:hover , .flask-icon:hover {
     -webkit-animation: none;
     animation: none;
     cursor: pointer;
-}
+}*/
 
 .python-icon , .django-icon, .postgres-icon, .flask-icon  {
     padding-left: 20%;
@@ -379,11 +379,11 @@ a > i.fa.fa-github.githubIcon:hover {
    100% { -webkit-transform: translateX(50%); }   
 }
 
-.css3-icon:hover , .html5-icon:hover, .bootstrap-icon:hover  {
+/*.css3-icon:hover , .html5-icon:hover, .bootstrap-icon:hover  {
     -webkit-animation: none;
     animation: none;
     cursor: pointer;
-}
+}*/
 
 .css3-icon, .html5-icon, .bootstrap-icon {
     height: 16vh;
