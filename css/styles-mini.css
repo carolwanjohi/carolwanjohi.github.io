@@ -1,0 +1,68 @@
+hr{background:#000;font-size:2%;display:none;}
+.row, .projectsRow1, .projectsRow, .back-end-row, .front-end-row{margin:0;width:100vw;max-width:100%;padding-left:0;padding-right:0;}
+.phoneHomeColumn{display:none;}
+.homeSection{width:100vw;height:100vh;}
+.nameColumn{text-align:center;height:100vh;width:50vw;padding-left:0;padding-right:0;}
+.nameColumn h1{padding-top:30%;color:#000;font-size:500%;font-family:'Work Sans', sans-serif;font-weight:normal;}
+.homeColumn{background:#000;height:100vh;width:50vw;padding-left:0;padding-right:0;text-align:center;}
+.homeArticle{padding-top:35%;color:#fff;font-size:275%;font-family:'Work Sans', sans-serif;font-weight:normal;}
+.sectionLinksList li{display:inline;font-size:200%;font-family:'Work Sans', sans-serif;font-style:italic;font-weight:lighter;}
+.sectionLinksList li > a:link{color:#fff;border-bottom:0.05em solid #fff;padding:0.75%;}
+.sectionLinksList li > a:visited{color:#fff;padding:0.75%;border-bottom:0;}
+.sectionLinksList li > a:hover{color:#fff;text-decoration:none;font-weight:1000;}
+.sectionLinksList li > a:active, .sectionLinksList li > a:focus{text-decoration:none;}
+#skill-link-in-home{margin-right:10%;margin-left:10%;}
+.phone-projects{display:none;}
+.projectsSection{width:100vw;height:100vh;text-align:center;}
+.projectSectionHeader{font-size:375%;color:#000;font-family:'Work Sans', sans-serif;font-weight:normal;padding-top:0.75%;}
+.projectsRow1{padding-top:1.25%;}
+.other-devices{padding-bottom:4%;padding-right:0%;padding-left:0%;}
+.black-project{background:#000;padding-bottom:5%;}
+.project-name-header{font-size:170%;font-family:'Work Sans', sans-serif;font-weight:normal;}
+.white-project-header{color:#fff;}
+.github-project-image, .the-C-blog-image, .traffic-tracker-image, .help-image{border-radius:100%;height:24vh;margin-left:auto;margin-right:auto;margin-top:4.25%;margin-bottom:0;cursor:pointer;}
+.project-description{font-size:140%;font-family:'Roboto', sans-serif;font-weight:normal;}
+.githubScreenshot, .blogScreenshot, .trafficScreenshot, .helpScreenshot{margin-left:auto;margin-right:auto;border:0.05em solid #000;}
+.trafficScreenshot{padding-bottom:0.05%;}
+.github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used{font-size:110%;font-family:'Roboto', sans-serif;font-weight:normal;top:5%;}
+.viewSiteButton{background:#000;border-color:#000;color:#fff;width:8vw;height:5vh;font-size:110%;font-family:'Roboto', sans-serif;font-weight:normal;margin-right:20%;display:inline-block;}
+.viewSiteButton:link{font-size:110%;text-decoration:none;}
+.viewSiteButton:visited{font-size:110%;text-decoration:none;}
+.viewSiteButton:hover{font-size:110%;text-decoration:none;}
+i.fa.fa-github.githubIcon{color:#000;font-size:350%;vertical-align:middle;}
+a > i.fa.fa-github.githubIcon:hover{font-weight:1000;text-decoration:none;}
+.skillsSection{width:100vw;height:100vh;background-color:#fff;}
+.skillsHeader{font-size:375%;color:#000;padding-top:0.25%;padding-bottom:0.25%;text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;}
+.back-end-row{padding-bottom:9.5%;padding-left:0;padding-right:0;}
+.front-end-row{background-color:#000;padding-bottom:8.75%;}
+.back-end-column, .front-end-column{padding-left:0;padding-right:0;width:50vw;}
+.back-end-skills-header, .front-end-skills-header{font-size:170%;font-family:'Work Sans', sans-serif;font-weight:normal;margin-left:2.5%;}
+.back-end-column > p, .front-end-column > p{margin-left:2.5%;}
+.skill-description, .front-end-skill-description{font-size:140%;font-family:'Roboto', sans-serif;font-weight:lighter;}
+.back-end-skills-header, .skill-description{color:#000;}
+.front-end-skills-header, .front-end-skill-description{color:#fff;}
+.skills-white{background:#fff;padding-right:0;padding-left:0;}
+.skill-icons{padding-right:0;padding-left:0;}
+.python-icon , .django-icon, .postgres-icon, .flask-icon{display:block;}
+.python-icon , .django-icon, .postgres-icon, .flask-icon{padding-left:20%;padding-top:5%;}
+.python-icon , .django-icon, .postgres-icon{height:12vh;}
+.flask-icon{height:11vh;}
+.animate-back-end-top{-webkit-transform:scale(1.5);-moz-transform:scale(1.5);-o-transform:scale(1.5);transform:scale(1.5);padding-bottom:2%;}
+.animate-back-end-bottom{-webkit-transform:scale(1.5);-moz-transform:scale(1.5);-o-transform:scale(1.5);transform:scale(1.5);padding-top:10%;}
+.python-icon , .django-icon, .postgres-icon, .flask-icon{-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;}
+.css3-icon, .html5-icon, .bootstrap-icon{display:block;}
+.css3-icon, .html5-icon, .bootstrap-icon{height:16vh;padding-left:20%;padding-top:11%;}
+.bootstrap-icon{height:14vh;padding-left:23%;padding-top:9%;}
+.animate-front-end-top{-webkit-transform:scale(1.5);-moz-transform:scale(1.5);-o-transform:scale(1.5);transform:scale(1.5);padding-bottom:2%;}
+.animate-front-end-bottom{-webkit-transform:scale(1.5);-moz-transform:scale(1.5);-o-transform:scale(1.5);transform:scale(1.5);padding-top:12%;}
+.css3-icon, .html5-icon, .bootstrap-icon{-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;}
+.contactInfo{text-align:center;padding-right:0;padding-left:0;}
+.contactSection{height:8vh;margin-bottom:2%;}
+.contactSectionHeader{text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;color:#000;}
+.fa.fa-envelope.emailIcon{color:#000;font-size:200%;}
+a > span.email{color:#000;font-size:175%;font-family:'Roboto', sans-serif;font-weight:normal;}
+#emailLink:hover{color:#333;text-decoration:none;}
+.socialInfo{text-align:center;display:inline-block;padding-right:0;padding-left:0;}
+.fa.fa-github.githubSocialIcon, .fa.fa-linkedin.linkedinSocialIcon{color:#000;font-size:275%;}
+.fa.fa-linkedin.linkedinSocialIcon{padding-left:10%;}
+.socialLink:hover{font-weight:1000;color:#333;text-decoration:none;}
