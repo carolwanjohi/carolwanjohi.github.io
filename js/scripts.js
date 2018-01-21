@@ -19,5 +19,24 @@ $(document).ready(function () {
         });
         
     });
+
+    // Animate icons in backend skills section
+    $('.back-end-icon-column').mouseenter(function() {
+        $('.python-icon , .django-icon').addClass('animate-back-end-top'); 
+        $('.postgres-icon, .flask-icon').addClass('animate-back-end-bottom');    
+    }).mouseleave(function() {
+        $('.python-icon , .django-icon').removeClass('animate-back-end-top');
+        $('.postgres-icon, .flask-icon').removeClass('animate-back-end-bottom'); 
+        
+    });
+
+    // Animate icons in font-end skills section
+    $('.font-end-icon-column').mouseenter(function() {
+        $('.css3-icon, .html5-icon').addClass('animate-front-end-top');  
+        $('.bootstrap-icon').addClass('animate-front-end-bottom');    
+    }).mouseleave(function() {
+        $('.css3-icon, .html5-icon').removeClass('animate-front-end-top');
+        $('.bootstrap-icon').removeClass('animate-front-end-bottom');
+    });
     
 });

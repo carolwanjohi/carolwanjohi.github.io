@@ -126,6 +126,7 @@ hr {
 
 .black-project {
     background: #000;
+    padding-bottom: 5%;
 }
 
 .project-name-header {
@@ -290,45 +291,6 @@ a > i.fa.fa-github.githubIcon:hover {
     display: block;
 }
 
-.python-icon , .django-icon {
-    -webkit-animation-name: slide-back-end-top;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;  
-}
-
-@-webkit-keyframes slide-back-end-top {
-   0% { -webkit-transform: translateX(50%); }  
-   100% { -webkit-transform: translateX(-50%); } 
-}
-
-
-.flask-icon {
-    -webkit-animation-name: slide-back-end-flask;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;  
-}
-
-@-webkit-keyframes slide-back-end-flask {
-   0% { -webkit-transform: translateX(-50%); }  
-   100% { -webkit-transform: translateX(50%); } 
-}
-
-.postgres-icon {
-    -webkit-animation-name: slide-back-end-bottom;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;  
-}
-
-@-webkit-keyframes slide-back-end-bottom {
-   0% { -webkit-transform: translateX(-50%); }  
-   100% { -webkit-transform: translateX(50%); } 
-}
 
 /*.python-icon:hover , .django-icon:hover, .postgres-icon:hover , .flask-icon:hover {
     -webkit-animation: none;
@@ -349,41 +311,32 @@ a > i.fa.fa-github.githubIcon:hover {
     height: 11vh;
 }
 
+.animate-back-end-top {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding-bottom: 2%;
+}
+
+.animate-back-end-bottom {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding-top: 10%;
+}
+
+.python-icon , .django-icon, .postgres-icon, .flask-icon  {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+}
+
 .css3-icon, .html5-icon, .bootstrap-icon {
     display: block;
 }
-
-.css3-icon, .html5-icon {
-    -webkit-animation-name: slide-front-end-top;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-}
-
-@-webkit-keyframes slide-front-end-top {
-   0% { -webkit-transform: translateX(50%); }  
-   100% { -webkit-transform: translateX(-50%); }   
-}
-
-.bootstrap-icon {
-    -webkit-animation-name: slide-front-end-bottom;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-}
-
-@-webkit-keyframes slide-front-end-bottom {
-   0% { -webkit-transform: translateX(-50%); }  
-   100% { -webkit-transform: translateX(50%); }   
-}
-
-/*.css3-icon:hover , .html5-icon:hover, .bootstrap-icon:hover  {
-    -webkit-animation: none;
-    animation: none;
-    cursor: pointer;
-}*/
 
 .css3-icon, .html5-icon, .bootstrap-icon {
     height: 16vh;
@@ -395,6 +348,29 @@ a > i.fa.fa-github.githubIcon:hover {
     height: 14vh;
     padding-left: 23%;
     padding-top: 9%;    
+}
+.animate-front-end-top {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding-bottom: 2%;
+}
+
+.animate-front-end-bottom {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    padding-top: 12%;
+}
+
+
+.css3-icon, .html5-icon, .bootstrap-icon  {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
 }
 
 /*Contact Section*/
