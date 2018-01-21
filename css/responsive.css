@@ -14,8 +14,8 @@
     padding-top: 15%;
     color: #000;
     font-size: 375%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@
 .sectionLinksList li {
     display: inline;
     font-size: 150%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: italic;
     font-weight: lighter;
 }
@@ -92,8 +92,8 @@
 .projectSectionHeader {
     font-size: 225%;
     color: #000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
@@ -114,8 +114,8 @@
 
 .project-name-header {
     font-size: 200%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;  
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;  
 }
 
 .white-project-header-phone {
@@ -149,8 +149,8 @@
     padding-top: 0.25%; 
     padding-bottom: 0.25%; 
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
 }
 
 .back-end-row {
@@ -172,14 +172,14 @@
 
 .back-end-skills-header, .front-end-skills-header {
     font-size: 175%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal; 
 }
 
 .skill-description, .front-end-skill-description  {
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .back-end-skills-header, .skill-description {
@@ -208,8 +208,8 @@
 .contactSectionHeader { 
     color: #000;
     text-align: center; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal; 
     font-size: 225%; 
 }
 
@@ -225,8 +225,8 @@
 a > span.email {
     color: #000;
     font-size: 115%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 #emailLink:hover {

@@ -38,8 +38,8 @@ hr {
     padding-top: 30%;
     color: #000;
     font-size: 500%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
 }
 
 .homeColumn {
@@ -55,14 +55,14 @@ hr {
     padding-top: 35%;
     color: #fff;
     font-size: 275%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
 }
 
 .sectionLinksList li {
     display: inline;
     font-size: 200%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: italic;
     font-weight: lighter;
 }
@@ -109,8 +109,8 @@ hr {
 .projectSectionHeader {
     font-size: 375%;
     color: #000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
     padding-top: 0.75%;
 }
 
@@ -131,8 +131,8 @@ hr {
 
 .project-name-header {
     font-size: 170%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;  
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;  
 }
 
 .white-project-header {
@@ -151,8 +151,8 @@ hr {
 
 .project-description {
     font-size: 140%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .githubScreenshot, .blogScreenshot, .trafficScreenshot, .helpScreenshot {
@@ -167,8 +167,8 @@ hr {
 
 .github-languages-used, .blog-languages-used, .help-languages-used, .traffic-languages-used, .rant-languages-used {
     font-size: 110%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     top: 5%;
 }
 
@@ -179,8 +179,8 @@ hr {
     width: 8vw;
     height: 5vh;
     font-size: 110%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     margin-right: 20%;
     display: inline-block;
 }
@@ -225,8 +225,8 @@ a > i.fa.fa-github.githubIcon:hover {
     padding-top: 0.25%; 
     padding-bottom: 0.25%; 
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
 }
 
 .back-end-row {
@@ -253,8 +253,8 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .back-end-skills-header, .front-end-skills-header {
     font-size: 170%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal; 
     margin-left: 2.5%;
 }
 
@@ -264,8 +264,8 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .skill-description, .front-end-skill-description {
     font-size: 140%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 
 .back-end-skills-header, .skill-description {
@@ -382,12 +382,13 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .contactSection {
     height: 8vh;
+    margin-bottom: 2%;
 }
 
 .contactSectionHeader { 
     text-align: center; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;  
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;  
     color: #000;
     /*margin-top: -3%;*/
 }
@@ -400,8 +401,8 @@ a > i.fa.fa-github.githubIcon:hover {
 a > span.email {
     color: #000;
     font-size: 175%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 #emailLink:hover {
