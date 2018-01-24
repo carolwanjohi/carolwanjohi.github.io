@@ -88,6 +88,7 @@
     text-align: center;
     border-bottom: 0;
     border-top: 0;
+    margin-top: -2%;
 }
 
 .projectSectionHeader {
@@ -97,6 +98,10 @@
     font-weight: normal;
     padding-bottom: 0%;
     margin-bottom: 0%;
+}
+
+.projectsRow1 {
+    padding-top: 0;
 }
 
 .white-phone-project {
@@ -139,20 +144,22 @@
 /*Skills Section*/
 .skillsSection {
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     background-color: #fff; 
-    margin-top: -2%;
+    /*margin-top: -2%;*/
     /*margin: -3% 0;*/
 }
 
 .skillsHeader {
     font-size: 225%;
     color: #000;
-    padding-top: 0.25%; 
+    /*padding-top: 0.25%; */
     padding-bottom: 0.25%; 
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
+    height: 5vh;
+    /*margin-top: 3%;*/
 }
 
 .back-end-row {
@@ -164,7 +171,7 @@
 
 .front-end-row {
     background-color: #1d4e54;
-    height: 25vh;
+    height: 30vh;
     padding-bottom: 24.75%;
 }
 
@@ -204,7 +211,7 @@
 /*Contact Section*/
 .contactSection {
     height: 5vh;
-    margin-top: 14%;
+    /*margin-top: 14%;*/
     margin-bottom: 8%;
     /*margin: 17% 0;*/
 }
