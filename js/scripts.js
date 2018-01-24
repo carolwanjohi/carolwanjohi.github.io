@@ -33,10 +33,10 @@ $(document).ready(function () {
     // Animate icons in font-end skills section
     $('.font-end-icon-column').mouseenter(function() {
         $('.css3-icon, .html5-icon').addClass('animate-front-end-top');  
-        $('.bootstrap-icon').addClass('animate-front-end-bottom');    
+        $('.bootstrap-icon, .jquery-icon').addClass('animate-front-end-bottom');    
     }).mouseleave(function() {
         $('.css3-icon, .html5-icon').removeClass('animate-front-end-top');
-        $('.bootstrap-icon').removeClass('animate-front-end-bottom');
+        $('.bootstrap-icon, .jquery-icon').removeClass('animate-front-end-bottom');
     });
     
     // 

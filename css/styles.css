@@ -334,11 +334,11 @@ a > i.fa.fa-github.githubIcon:hover {
     -ms-transition: all .4s ease-in-out;
 }
 
-.css3-icon, .html5-icon, .bootstrap-icon {
+.css3-icon, .html5-icon, .bootstrap-icon, .jquery-icon {
     display: block;
 }
 
-.css3-icon, .html5-icon, .bootstrap-icon {
+.css3-icon, .html5-icon, .bootstrap-icon, .jquery-icon {
     height: 16vh;
     padding-left: 20%;
     padding-top: 11%;
@@ -366,7 +366,7 @@ a > i.fa.fa-github.githubIcon:hover {
 }
 
 
-.css3-icon, .html5-icon, .bootstrap-icon  {
+.css3-icon, .html5-icon, .bootstrap-icon, .jquery-icon  {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -382,7 +382,7 @@ a > i.fa.fa-github.githubIcon:hover {
 
 .contactSection {
     height: 8vh;
-    margin-bottom: 2%;
+    margin: 4% 0;
 }
 
 .contactSectionHeader { 
