@@ -27,7 +27,7 @@
 .phoneHomeColumn {
     padding-top: 23%;
     display: block;
-    background: #000;
+    background: #263238;
     height: 50vh;
     width: 100vw;
     text-align: center;
@@ -107,7 +107,7 @@
 }
 
 .black-phone-project {
-    background: #000;
+    background: #263238;
     color: #fff;
     padding-left: 0;
     padding-right: 0;
@@ -129,10 +129,10 @@
 
 .github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image {
     border-radius: 100%;
-    height: 13vh;
+    height: 14vh;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1.75%;
+    margin-bottom: 1%;
     margin-top: -0.25%;
 }
 
@@ -141,7 +141,8 @@
     width: 100vw;
     height: 50vh;
     background-color: #fff; 
-    /*margin-top: 7.75%;*/
+    margin-top: -2%;
+    /*margin: -3% 0;*/
 }
 
 .skillsHeader {
@@ -161,7 +162,7 @@
 }
 
 .front-end-row {
-    background-color: #000;
+    background-color: #263238;
     height: 25vh;
     padding-bottom: 24.75%;
 }
@@ -204,6 +205,7 @@
     height: 5vh;
     margin-top: 14%;
     margin-bottom: 8%;
+    /*margin: 17% 0;*/
 }
 
 .contactSectionHeader { 
