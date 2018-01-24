@@ -3,7 +3,7 @@
 .nameColumn{text-align:center;height:50vh;width:100vw;}
 .nameColumn h1{padding-top:15%;color:#000;font-size:375%;font-family:'Work Sans', sans-serif;font-weight:normal;text-align:center;}
 .homeColumn{display:none;}
-.phoneHomeColumn{padding-top:23%;display:block;background:#000;height:50vh;width:100vw;text-align:center;padding-left:0;padding-right:0;}
+.phoneHomeColumn{padding-top:23%;display:block;background:#1d4e54;height:50vh;width:100vw;text-align:center;padding-left:0;padding-right:0;}
 .homeSection{width:100vw;height:100vh;background:#fff;}
 .sectionLinksList li{display:inline;font-size:150%;font-family:'Work Sans', sans-serif;font-style:italic;font-weight:lighter;}
 .sectionLinksList li > a:link{color:#fff;border-bottom:0.05em solid #fff;padding:2%;}
@@ -12,18 +12,19 @@
 #skill-link-in-home{margin-right:2%;margin-left:2%;}
 .phone-projects{display:block;padding-right:0;padding-left:0;}
 .other-devices{display:none;}
-.projectsSection{width:100vw;height:100vh;text-align:center;border-bottom:0;border-top:0;}
+.projectsSection{width:100vw;height:100vh;text-align:center;border-bottom:0;border-top:0;margin-top:-2%;}
 .projectSectionHeader{font-size:225%;color:#000;font-family:'Work Sans', sans-serif;font-weight:normal;padding-bottom:0%;margin-bottom:0%;}
+.projectsRow1{padding-top:0;}
 .white-phone-project{background:#fff;color:#000;padding-left:0;padding-right:0;}
-.black-phone-project{background:#000;color:#fff;padding-left:0;padding-right:0;}
+.black-phone-project{background:#1d4e54;color:#fff;padding-left:0;padding-right:0;}
 .project-name-header{font-size:200%;font-family:'Work Sans', sans-serif;font-weight:normal;}
 .white-project-header-phone{color:#000;}
 .black-project-header-phone{color:#fff;}
-.github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image{border-radius:100%;height:13vh;margin-left:auto;margin-right:auto;margin-bottom:1.75%;margin-top:-0.25%;}
-.skillsSection{width:100vw;height:50vh;background-color:#fff;}
-.skillsHeader{font-size:225%;color:#000;padding-top:0.25%;padding-bottom:0.25%;text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;}
-.back-end-row{height:25vh;}
-.front-end-row{background-color:#000;height:25vh;padding-bottom:24.75%;}
+.github-project-image, .the-C-blog-image, .help-image, .traffic-tracker-image, .rant-on-image{border-radius:100%;height:14vh;margin-left:auto;margin-right:auto;margin-bottom:1%;margin-top:-0.25%;}
+.skillsSection{width:100vw;height:60vh;background-color:#fff;}
+.skillsHeader{font-size:225%;color:#000;padding-bottom:0.25%;text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;height:5vh;}
+.back-end-row{height:25vh;background-color:#fff;}
+.front-end-row{background-color:#1d4e54;height:30vh;padding-bottom:24.75%;}
 .back-end-column, .front-end-column{width:100vw;}
 .back-end-skills-header, .front-end-skills-header{font-size:175%;font-family:'Work Sans', sans-serif;font-weight:normal;}
 .skill-description, .front-end-skill-description{font-size:100%;font-family:'Roboto', sans-serif;font-weight:normal;}
@@ -31,7 +32,7 @@
 .front-end-skills-header, .front-end-skill-description{color:#fff;}
 .skills-white{background:#fff;}
 .skill-icons{display:none;}
-.contactSection{height:5vh;margin-top:14%;margin-bottom:8%;}
+.contactSection{height:5vh;margin-bottom:8%;}
 .contactSectionHeader{color:#000;text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;font-size:225%;margin-top:3%;}
 .contactInfo{text-align:center;}
 .fa.fa-envelope.emailIcon{color:#000;font-size:130%;}
