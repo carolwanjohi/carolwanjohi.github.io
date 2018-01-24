@@ -27,7 +27,7 @@
 .phoneHomeColumn {
     padding-top: 23%;
     display: block;
-    background: #263238;
+    background: #1d4e54;
     height: 50vh;
     width: 100vw;
     text-align: center;
@@ -107,7 +107,7 @@
 }
 
 .black-phone-project {
-    background: #263238;
+    background: #1d4e54;
     color: #fff;
     padding-left: 0;
     padding-right: 0;
@@ -159,10 +159,11 @@
     /*margin-top: 9%;*/
     /*padding-bottom: 2%;*/
     height: 25vh;
+    background-color: #fff;
 }
 
 .front-end-row {
-    background-color: #263238;
+    background-color: #1d4e54;
     height: 25vh;
     padding-bottom: 24.75%;
 }
