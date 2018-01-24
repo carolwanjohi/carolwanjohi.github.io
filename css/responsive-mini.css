@@ -32,7 +32,7 @@
 .skills-white{background:#fff;}
 .skill-icons{display:none;}
 .contactSection{height:5vh;margin-top:14%;margin-bottom:8%;}
-.contactSectionHeader{color:#000;text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;font-size:225%;}
+.contactSectionHeader{color:#000;text-align:center;font-family:'Work Sans', sans-serif;font-weight:normal;font-size:225%;margin-top:3%;}
 .contactInfo{text-align:center;}
 .fa.fa-envelope.emailIcon{color:#000;font-size:130%;}
 a > span.email{color:#000;font-size:115%;font-family:'Roboto', sans-serif;font-weight:normal;}
